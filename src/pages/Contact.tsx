@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact: React.FC = () => {
   return (
-    <div className="bg-turtle-light min-h-screen pt-32 px-6">
+    <div className="bg-turtle-light min-h-screen pt-32 pb-20 md:pb-32 px-6">
       <div className="max-w-screen-xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
           {/* Left Column: Info */}

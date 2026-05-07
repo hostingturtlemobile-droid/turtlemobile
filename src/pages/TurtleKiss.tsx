@@ -2,7 +2,7 @@ import React from 'react';
 
 const TurtleKiss: React.FC = () => {
   return (
-    <div className="bg-turtle-light min-h-screen pt-32 pb-20 px-6 md:px-12">
+    <div className="bg-turtle-light min-h-screen pt-32 pb-20 md:pb-32 px-6 md:px-12">
       <div className="max-w-screen-xl mx-auto">
         {/* Manifesto Hero */}
         <div className="mb-24">

@@ -10,8 +10,17 @@ const Home: React.FC = () => {
         setHasScrolled(true);
       }
     };
+    
+    // Auto-reveal after 2 seconds for better mobile UX
+    const timer = setTimeout(() => {
+      setHasScrolled(true);
+    }, 2000);
+
     window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      clearTimeout(timer);
+    };
   }, []);
 
   return (
