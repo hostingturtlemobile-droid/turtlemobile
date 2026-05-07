@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Turtle Mobility | The Art of Arrival</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Inter:wght@400;500;600&amp;family=Public+Sans:wght@300;400;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-low": "#f5f3f4",
+                        "on-tertiary": "#ffffff",
+                        "surface-variant": "#e3e2e3",
+                        "on-error": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "error-container": "#ffdad6",
+                        "primary-fixed": "#d9e2ff",
+                        "on-tertiary-container": "#4a3f00",
+                        "tertiary-fixed-dim": "#dcc661",
+                        "surface": "#faf9fa",
+                        "error": "#ba1a1a",
+                        "surface-tint": "#2259bf",
+                        "secondary-container": "#dfe3e8",
+                        "primary-container": "#3366cc",
+                        "surface-container": "#efedee",
+                        "on-secondary-container": "#606569",
+                        "on-primary-fixed": "#001946",
+                        "on-tertiary-fixed": "#211b00",
+                        "surface-container-high": "#e9e8e9",
+                        "on-surface": "#1b1c1d",
+                        "surface-bright": "#faf9fa",
+                        "tertiary-fixed": "#f9e37a",
+                        "secondary-fixed-dim": "#c2c7cc",
+                        "on-surface-variant": "#434653",
+                        "tertiary": "#6d5e00",
+                        "surface-container-highest": "#e3e2e3",
+                        "on-secondary-fixed-variant": "#42474b",
+                        "on-secondary": "#ffffff",
+                        "on-primary": "#ffffff",
+                        "primary-fixed-dim": "#b1c5ff",
+                        "inverse-on-surface": "#f2f0f1",
+                        "outline-variant": "#c3c6d5",
+                        "on-error-container": "#93000a",
+                        "secondary-fixed": "#dfe3e8",
+                        "primary": "#094cb2",
+                        "on-primary-fixed-variant": "#00419d",
+                        "surface-dim": "#dbdadb",
+                        "tertiary-container": "#bfab49",
+                        "on-primary-container": "#e7ebff",
+                        "inverse-surface": "#303031",
+                        "on-background": "#1b1c1d",
+                        "secondary": "#5a5f63",
+                        "on-tertiary-fixed-variant": "#524600",
+                        "outline": "#737784",
+                        "background": "#faf9fa",
+                        "inverse-primary": "#b1c5ff",
+                        "on-secondary-fixed": "#171c20"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "fontFamily": {
+                        "headline": ["Noto Serif"],
+                        "display": ["Noto Serif"],
+                        "body": ["Inter"],
+                        "label": ["Public Sans"]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-nav {
+            backdrop-filter: blur(20px);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopNavBar -->
+<nav class="bg-slate-50/80 dark:bg-slate-950/80 backdrop-blur-md docked full-width top-0 sticky z-50 shadow-sm dark:shadow-none no-border bg-slate-100/50 dark:bg-slate-900/50 transition-all duration-300 ease-in-out">
+<div class="flex justify-between items-center w-full px-12 py-6 max-w-screen-2xl mx-auto">
+<div class="font-serif text-2xl font-bold italic text-blue-800 dark:text-blue-300">
+                Turtle Mobility
+            </div>
+<div class="hidden md:flex gap-12 items-center">
+<a class="font-serif tracking-tight text-lg text-blue-700 dark:text-blue-400 border-b-2 border-blue-700 dark:border-blue-400 pb-1 hover:underline decoration-yellow-600 underline-offset-8 transition-colors" href="#">Experience</a>
+<a class="font-serif tracking-tight text-lg text-slate-600 dark:text-slate-400 hover:text-yellow-700 dark:hover:text-yellow-500 transition-colors hover:underline decoration-yellow-600 underline-offset-8" href="#">Fleet</a>
+<a class="font-serif tracking-tight text-lg text-slate-600 dark:text-slate-400 hover:text-yellow-700 dark:hover:text-yellow-500 transition-colors hover:underline decoration-yellow-600 underline-offset-8" href="#">Telemetry</a>
+<a class="font-serif tracking-tight text-lg text-slate-600 dark:text-slate-400 hover:text-yellow-700 dark:hover:text-yellow-500 transition-colors hover:underline decoration-yellow-600 underline-offset-8" href="#">Lifestyle</a>
+<a class="font-serif tracking-tight text-lg text-slate-600 dark:text-slate-400 hover:text-yellow-700 dark:hover:text-yellow-500 transition-colors hover:underline decoration-yellow-600 underline-offset-8" href="#">Concierge</a>
+</div>
+<button class="bg-gradient-to-r from-primary to-primary-container text-on-primary px-8 py-3 rounded-full font-label uppercase tracking-widest text-xs hover:opacity-90 transition-opacity">
+                Book a Drive
+            </button>
+</div>
+</nav>
+<!-- Main Content -->
+<main class="min-h-screen">
+<!-- Hero Section -->
+<section class="relative pt-24 pb-32 overflow-hidden flex flex-col items-center justify-center text-center px-6">
+<div class="max-w-4xl mx-auto mb-16">
+<h1 class="font-headline text-6xl md:text-8xl font-light tracking-tight text-on-surface mb-4 leading-tight">
+                    Obscura <span class="italic text-tertiary">Elegance</span>
+</h1>
+<p class="font-body text-secondary text-lg tracking-wide uppercase">The New Standard of Autonomous Luxury</p>
+</div>
+<!-- Obsidian Vehicle Render -->
+<div class="w-full max-w-6xl mx-auto transition-transform duration-700 hover:scale-[1.02]">
+<img alt="3D render of the Obsidian Vehicle" class="w-full aspect-video object-cover rounded-xl shadow-2xl shadow-on-surface/5" data-alt="A hyper-realistic 3D render of a futuristic obsidian-black luxury vehicle with a sleek, aerodynamic silhouette. The car is positioned centrally in a minimalist, high-key studio setting with soft, diffused lighting reflecting off its polished glass surfaces. The aesthetic is clean and high-end, utilizing a palette of deep grays, crisp whites, and subtle blue highlights to emphasize its advanced engineering. The mood is sophisticated and silent, representing the pinnacle of modern autonomous transportation design." src="https://lh3.googleusercontent.com/aida/ADBb0uiJ9zUzvb-wmGF6eAfYs7fVtArJI5rH78NZVN6rm8dETvh4miCjpG4YyPNOWCwDIn7dcMB-FVbBhXRmFAuxn8HQJN4WUJpj8chkz6GL6JB7mtDIGH7y0OcDsfC2YlTbuHxOU9iucK2qTPtiZjLnetfxMzKyL4U_DG2-D5FTlbceDIeRTZkBQPyHzA5QMgE5knL4-wg7bUd0x7dF920f78pP7IYorC-qev1wqJxasE2zSO5CgRFT7MyVL2aB"/>
+</div>
+</section>
+<!-- Technical Highlights Grid -->
+<section class="max-w-screen-2xl mx-auto px-12 pb-32">
+<div class="grid grid-cols-1 md:grid-cols-5 gap-px bg-surface-variant/20 rounded-xl overflow-hidden shadow-sm">
+<!-- Highlight 1 -->
+<div class="bg-surface-container-lowest p-10 flex flex-col justify-between transition-colors hover:bg-surface-bright group">
+<span class="material-symbols-outlined text-primary mb-8" data-icon="settings_remote">settings_remote</span>
+<div>
+<h3 class="font-label text-xs uppercase tracking-widest text-tertiary mb-3">Remote Pilot</h3>
+<p class="font-body text-sm text-on-surface-variant leading-relaxed">Encrypted low-latency manual override capabilities via global satellite constellation.</p>
+</div>
+</div>
+<!-- Highlight 2 -->
+<div class="bg-surface-container-lowest p-10 flex flex-col justify-between transition-colors hover:bg-surface-bright group">
+<span class="material-symbols-outlined text-primary mb-8" data-icon="eco">eco</span>
+<div>
+<h3 class="font-label text-xs uppercase tracking-widest text-tertiary mb-3">Zero Emission</h3>
+<p class="font-body text-sm text-on-surface-variant leading-relaxed">Solid-state battery architecture providing 800 miles of sustainable range.</p>
+</div>
+</div>
+<!-- Highlight 3 -->
+<div class="bg-surface-container-lowest p-10 flex flex-col justify-between transition-colors hover:bg-surface-bright group">
+<span class="material-symbols-outlined text-primary mb-8" data-icon="shield">shield</span>
+<div>
+<h3 class="font-label text-xs uppercase tracking-widest text-tertiary mb-3">Redundant Safety</h3>
+<p class="font-body text-sm text-on-surface-variant leading-relaxed">Triple-layer LiDAR and ultrasonic sensors ensure 360° fail-safe awareness.</p>
+</div>
+</div>
+<!-- Highlight 4 -->
+<div class="bg-surface-container-lowest p-10 flex flex-col justify-between transition-colors hover:bg-surface-bright group">
+<span class="material-symbols-outlined text-primary mb-8" data-icon="cell_tower">cell_tower</span>
+<div>
+<h3 class="font-label text-xs uppercase tracking-widest text-tertiary mb-3">High-Speed Uplink</h3>
+<p class="font-body text-sm text-on-surface-variant leading-relaxed">Integrated 6G connectivity keeping your sanctuary online anywhere on earth.</p>
+</div>
+</div>
+<!-- Highlight 5 -->
+<div class="bg-surface-container-lowest p-10 flex flex-col justify-between transition-colors hover:bg-surface-bright group">
+<span class="material-symbols-outlined text-primary mb-8" data-icon="spa">spa</span>
+<div>
+<h3 class="font-label text-xs uppercase tracking-widest text-tertiary mb-3">Premium Sanctuary</h3>
+<p class="font-body text-sm text-on-surface-variant leading-relaxed">Acoustic isolation and biometric climate control for absolute serenity.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Aesthetic Detail Section -->
+<section class="max-w-screen-2xl mx-auto px-12 mb-32 grid md:grid-cols-2 gap-12 items-center">
+<div class="rounded-xl overflow-hidden bg-surface-container">
+<img alt="Interior Detail" class="w-full h-[600px] object-cover mix-blend-multiply opacity-90" data-alt="A macro photograph showcasing the intricate interior textures of a luxury vehicle, featuring fine-grain black leather and polished carbon fiber accents. The lighting is moody and focused, highlighting the tactile quality of the materials with soft golden highlights. The background is softly blurred to emphasize the craftsmanship of the stitching and the seamless integration of touch interfaces. The overall tone is scholarly and premium, suggesting a space of curated quiet and high-end editorial elegance." src="https://lh3.googleusercontent.com/aida/ADBb0uiK4FdqZqvBrlFjsMhEHj5zDxwz6BNE3eF_piNG4m-watgh9F8oR2V_lh1GBKxzGpqIF7-cWFxcyAI7zfc3YuoE0b_QZfxRhcI0jNll9Jq61lHGdBimTVWebB4thgD4r6_FHdI1KXcefmCY65MpoxXbTdaEOTWUHaoAsXxeAp9vJspPC7WqP-4OweEF42lTBplj2d3VCaLYHG30NRhff46FHbqzY_8WA3MDvS6z2KckM26pworvOXmR9gI4StOKMWPSE84tXbgMBg"/>
+</div>
+<div class="pl-12">
+<h2 class="font-headline text-5xl mb-8 leading-tight">Crafted for the <br/> <span class="italic">Modern Intellectual.</span></h2>
+<div class="w-16 h-1 bg-tertiary-container mb-8"></div>
+<button class="font-label text-sm uppercase tracking-[0.2em] text-primary flex items-center gap-4 group">
+                    View Specifications 
+                    <span class="material-symbols-outlined group-hover:translate-x-2 transition-transform">arrow_forward</span>
+</button>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-100 dark:bg-slate-900 tonal-shift-bg-surface-dim full-width py-16 px-12">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:flex lg:justify-between items-end w-full max-w-screen-2xl mx-auto gap-8">
+<div class="flex flex-col gap-4">
+<div class="font-serif text-xl font-semibold text-slate-800 dark:text-slate-200">
+                    Turtle Mobility
+                </div>
+<div class="font-sans text-xs tracking-widest uppercase text-slate-500 dark:text-slate-400">
+                    © 2024 Turtle Mobility. The Art of Arrival.
+                </div>
+</div>
+<div class="flex gap-8 flex-wrap">
+<a class="font-sans text-xs tracking-widest uppercase text-slate-500 dark:text-slate-400 hover:text-blue-700 dark:hover:text-blue-400 transition-colors opacity-80 hover:opacity-100" href="#">Privacy</a>
+<a class="font-sans text-xs tracking-widest uppercase text-slate-500 dark:text-slate-400 hover:text-blue-700 dark:hover:text-blue-400 transition-colors opacity-80 hover:opacity-100" href="#">Archive</a>
+<a class="font-sans text-xs tracking-widest uppercase text-slate-500 dark:text-slate-400 hover:text-blue-700 dark:hover:text-blue-400 transition-colors opacity-80 hover:opacity-100" href="#">Terms</a>
+<a class="font-sans text-xs tracking-widest uppercase text-slate-500 dark:text-slate-400 hover:text-blue-700 dark:hover:text-blue-400 transition-colors opacity-80 hover:opacity-100" href="#">Press</a>
+<a class="font-sans text-xs tracking-widest uppercase text-slate-500 dark:text-slate-400 hover:text-blue-700 dark:hover:text-blue-400 transition-colors opacity-80 hover:opacity-100" href="#">Provenance</a>
+</div>
+</div>
+</footer>
+</body></html>
