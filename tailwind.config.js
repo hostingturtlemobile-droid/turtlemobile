@@ -53,7 +53,11 @@ export default {
         "outline": "#737784",
         "background": "#faf9fa",
         "inverse-primary": "#b1c5ff",
-        "on-secondary-fixed": "#171c20"
+        "on-secondary-fixed": "#171c20",
+        "turtle-lime": "#b1b555",
+        "turtle-teal": "#507270",
+        "turtle-dark": "#1c282a",
+        "turtle-light": "#e3f2c7"
       },
       borderRadius: {
         "DEFAULT": "0.125rem",
@@ -62,10 +66,10 @@ export default {
         "full": "0.75rem"
       },
       fontFamily: {
-        "headline": ["Noto Serif", "serif"],
-        "display": ["Noto Serif", "serif"],
+        "headline": ["Clash Display", "sans-serif"],
+        "display": ["Clash Display", "sans-serif"],
         "body": ["Inter", "sans-serif"],
-        "label": ["Public Sans", "sans-serif"]
+        "label": ["Inter", "sans-serif"]
       }
     },
   },

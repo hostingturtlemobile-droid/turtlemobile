@@ -7,8 +7,8 @@ const Solution: React.FC = () => {
         {/* Hero Section: The Remote Synthesis */}
         <section className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center mb-32">
           <div className="lg:col-span-5 order-2 lg:order-1">
-            <div className="font-label text-tertiary font-semibold tracking-widest uppercase text-xs mb-6">Archive Vol. 04 — Modern Solutions</div>
-            <h1 className="text-5xl md:text-7xl leading-tight mb-8 font-headline">The Remote <br/><span className="italic font-normal">Synthesis.</span></h1>
+            <div className="font-body font-semibold text-turtle-dark/75 tracking-[0.12em] uppercase text-xs mb-6">Archive Vol. 04 — Modern Solutions</div>
+            <h1 className="text-4xl md:text-8xl font-headline font-extrabold leading-[1.1] tracking-[-0.02em] mb-8">The Remote <br/><span className="italic font-normal">Synthesis.</span></h1>
             <p className="font-body text-xl text-on-surface-variant leading-relaxed mb-12 max-w-xl">
               Bridging the physical gap through digital fidelity. Turtle Mobility introduces a refined paradigm where human intuition meets high-bandwidth tele-operation, solving the urban logjam through sophisticated remote oversight.
             </p>
@@ -55,7 +55,7 @@ const Solution: React.FC = () => {
                 <span className="font-label text-primary text-xs font-bold tracking-widest uppercase">The Pilot Interface</span>
                 <h2 className="text-4xl font-headline mt-4 mb-6 max-w-md">Precision Control from the Command Horizon.</h2>
                 <p className="font-body text-on-surface-variant max-w-sm mb-10">Our remote operators undergo rigorous certification to manage fleet dynamics with a level of attention unavailable to local drivers.</p>
-                <button className="bg-surface-container-highest text-primary font-label text-xs font-bold py-3 px-6 rounded-lg uppercase tracking-widest hover:bg-primary hover:text-on-primary transition-colors">
+                <button className="bg-surface-container-highest text-primary font-label text-xs font-bold py-3 px-6 rounded-lg uppercase tracking-widest hover:bg-primary hover:text-on-primary hover:-translate-y-1 transition-all shadow-sm hover:shadow-md">
                   Explore Technicals
                 </button>
               </div>

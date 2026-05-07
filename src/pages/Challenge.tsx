@@ -14,12 +14,12 @@ const Challenge: React.FC = () => {
           />
         </div>
         <div className="relative z-20 text-center max-w-4xl px-6">
-          <h1 className="font-display text-8xl md:text-9xl text-white font-bold tracking-tighter mb-6 leading-none">
+          <h1 className="font-headline text-5xl md:text-9xl text-white font-extrabold tracking-[-0.02em] mb-6 leading-[1.1]">
             Motion, <br/>
-            <span className="italic text-tertiary-fixed">Stalled.</span>
+            <span className="italic text-turtle-lime">Stalled.</span>
           </h1>
-          <div className="w-24 h-1 bg-tertiary mx-auto mb-8"></div>
-          <p className="font-label text-white/80 uppercase tracking-[0.4em] text-sm">A Scholarly Review of the Urban Crisis</p>
+          <div className="w-24 h-1 bg-turtle-lime mx-auto mb-10"></div>
+          <p className="font-body font-semibold text-white/75 uppercase tracking-[0.12em] text-xs">A Scholarly Review of the Urban Crisis</p>
         </div>
         {/* Scroll Indicator */}
         <div className="absolute bottom-12 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-4 text-white/60">
@@ -136,10 +136,10 @@ const Challenge: React.FC = () => {
         <div className="max-w-3xl mx-auto">
           <h2 className="font-display text-6xl mb-12">Transcend the Stagnation.</h2>
           <div className="flex flex-col md:flex-row items-center justify-center gap-6">
-            <a className="w-full md:w-auto bg-surface text-primary px-12 py-5 font-label font-bold uppercase tracking-widest text-sm hover:bg-surface-bright transition-colors rounded-lg" href="#">
+            <a className="w-full md:w-auto bg-surface text-primary px-12 py-5 font-label font-bold uppercase tracking-widest text-sm hover:bg-surface-bright hover:-translate-y-1 transition-all rounded-lg shadow-sm hover:shadow-md" href="#">
               Explore the Fleet
             </a>
-            <a className="w-full md:w-auto border border-on-primary-container/30 px-12 py-5 font-label font-bold uppercase tracking-widest text-sm hover:bg-on-primary-container/10 transition-colors rounded-lg" href="#">
+            <a className="w-full md:w-auto border border-on-primary-container/30 px-12 py-5 font-label font-bold uppercase tracking-widest text-sm hover:bg-on-primary-container/10 hover:-translate-y-1 transition-all rounded-lg" href="#">
               Contact Concierge
             </a>
           </div>
