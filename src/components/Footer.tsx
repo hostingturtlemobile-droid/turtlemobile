@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
     { name: 'Career', path: '/career' },
     { name: 'Investor', path: '/investor' },
     { name: 'ChusMobility', path: '/chus' },
-    { name: 'Turtle KiSS', path: '/kiss' },
+    { name: 'KiSS', path: '/kiss' },
     { name: 'Contact', path: '/contact' },
   ];
 
@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
               <React.Fragment key={link.name}>
                 <Link
                   to={link.path}
-                  className="font-body text-[10px] tracking-widest uppercase opacity-60 hover:opacity-100 hover:text-turtle-teal transition-all whitespace-nowrap"
+                  className={`font-body text-[10px] tracking-widest opacity-60 hover:opacity-100 hover:text-turtle-teal transition-all whitespace-nowrap ${link.name === 'KiSS' ? 'normal-case' : 'uppercase'}`}
                 >
                   {link.name}
                 </Link>

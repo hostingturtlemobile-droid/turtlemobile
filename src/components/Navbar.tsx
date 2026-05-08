@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
   }, [isMenuOpen]);
 
   const navLinks = [
-    { name: 'Turtle KiSS', path: '/kiss' },
+    { name: 'KiSS', path: '/kiss' },
     { name: 'About', path: '/about' },
     { name: 'Technology', path: '/tech' },
     { name: 'Career', path: '/career' },
@@ -84,9 +84,9 @@ const Navbar: React.FC = () => {
               <Link
                 key={link.name}
                 to={link.path}
-                className={`relative font-body font-medium tracking-wide text-[11px] uppercase transition-all duration-300 hover:text-turtle-teal hover:-translate-y-0.5 group pb-1 ${
+                className={`relative font-body font-medium tracking-wide text-[11px] transition-all duration-300 hover:text-turtle-teal hover:-translate-y-0.5 group pb-1 ${
                   isActive ? 'text-turtle-dark' : 'text-turtle-dark/80'
-                }`}
+                } ${link.name === 'KiSS' ? 'normal-case' : 'uppercase'}`}
               >
                 {link.name}
                 <span 
