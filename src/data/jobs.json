@@ -1,0 +1,664 @@
+[
+  {
+    "id": "1",
+    "role": "3D Design Engineer",
+    "dept": "Design",
+    "loc": "Remote (Bangalore R&D Base)",
+    "description": [],
+    "job_id": "TM100000001L",
+    "role_overview": [
+      "Would you like to shape the future of autonomous urban mobility together with us? Turtle Mobility is seeking a 3D Design Engineer to support mechanical design and development of our electric microcar."
+    ],
+    "responsibilities": [
+      "Create 3D part and assembly models",
+      "Apply GD&T as per automotive standards",
+      "Support design reviews, releases, and iterations",
+      "Collaborate with CAE, manufacturing, and suppliers"
+    ],
+    "requirements": [
+      "CATIA / NX / Creo or similar",
+      "Knowledge of GD&T",
+      "Automotive design exposure preferred"
+    ],
+    "experience": [
+      "Preferred 2\u20135 years of experience in the automotive domain",
+      "Handson vehicle building experience is highly valued",
+      "Experience through personal car builds, SAE BAJA, Formula SAE, Formula Student, SUPRA, or similar competitions is considered equivalent"
+    ]
+  },
+  {
+    "id": "2",
+    "role": "Analysis Engineer (CAE)",
+    "dept": "Engineering",
+    "loc": "Remote (Bangalore R&D Base)",
+    "description": [],
+    "job_id": "TM100000002L",
+    "role_overview": [
+      "Turtle Mobility is looking for a CAE / Analysis Engineer to validate structural and durability performance of vehicle components."
+    ],
+    "responsibilities": [
+      "Perform FE analysis and simulations",
+      "Meshing, solver setup, and result interpretation",
+      "Support design optimization",
+      "Supplier discussion",
+      "Review of technical specification.",
+      "Getting stakeholder approval."
+    ],
+    "requirements": [
+      "ANSYS, HyperMesh, Abaqus or similar",
+      "Nastran or similar solvers"
+    ],
+    "experience": [
+      "Preferred 2\u20135 years automotive CAE experience",
+      "Student or personal buildrelated CAE projects are considered",
+      "Experience through personal car builds, SAE BAJA, Formula SAE, Formula Student, SUPRA, or similar competitions is considered equivalent"
+    ]
+  },
+  {
+    "id": "3",
+    "role": "Geometrical Architect",
+    "dept": "Design",
+    "loc": "Remote (Bangalore R&D Base)",
+    "description": [],
+    "job_id": "TM100000003L",
+    "role_overview": [
+      "We are seeking a Geometrical Architect to define vehicle geometry, packaging, and tolerance strategies."
+    ],
+    "responsibilities": [
+      "Define master sections and vehicle packaging",
+      "GD&T and tolerance stackup analysis",
+      "Support BOM and cost feasibility"
+    ],
+    "requirements": [
+      "CATIA / Creo / NX or similar",
+      "ADAMS or similar kinematic tools",
+      "Strong GD&T understanding"
+    ],
+    "experience": [
+      "Preferred 2\u20135 years automotive experience",
+      "SAE / Formulastyle vehicle packaging experience valued"
+    ]
+  },
+  {
+    "id": "4",
+    "role": "Cost & BOM Engineer",
+    "dept": "Engineering",
+    "loc": "Remote (Bangalore R&D Base)",
+    "description": [],
+    "job_id": "TM100000004L",
+    "role_overview": [
+      "Drive cost transparency and BOM ownership for Turtle Mobility vehicles."
+    ],
+    "responsibilities": [
+      "Create and maintain BOM",
+      "Component costing and weight tracking",
+      "IMDS and material compliance"
+    ],
+    "requirements": [
+      "Automotive part costing experience",
+      "aPriori or similar tools"
+    ],
+    "experience": [
+      "Preferred 2\u20135 years automotive costing exposure",
+      "Practical sourcing or build experience considered"
+    ]
+  },
+  {
+    "id": "5",
+    "role": "Studio Engineer",
+    "dept": "Design",
+    "loc": "Remote (Bangalore R&D Base)",
+    "description": [],
+    "job_id": "TM100000005L",
+    "role_overview": [
+      "Would you like to shape the future of autonomous urban mobility together with us?Turtle Mobility is seeking a Studio Engineer to bridge vehicle styling intent and engineering feasibility, ensuring design vision is translated into productionready surfaces without compromising functionality, manufacturability, or cost.",
+      "This role sits at the intersection of design, engineering, and manufacturing, and is critical to delivering a clean, minimalistic, and productionfeasible vehicle."
+    ],
+    "responsibilities": [
+      "Develop and refine vehicle styling surfaces, ensuring alignment with design intent",
+      "Create and maintain ClassA and ClassB surfaces based on styling data",
+      "Support feasibility analysis of styling concepts for manufacturing, cost, and assembly",
+      "Ensure smooth transition from design studio to engineering teams",
+      "Collaborate with design, packaging, and manufacturing teams to resolve surface and geometry issues",
+      "Maintain surface quality standards, continuity, and highlight control",
+      "Support digital model releases for downstream engineering and tooling",
+      "Contribute to a minimalistic, purposedriven design philosophy aligned with Turtle Mobility\u2019s product vision"
+    ],
+    "requirements": [
+      "Strong experience with Autodesk Alias, ICEM Surf, or similar surfacing tools",
+      "Proven capability in automotive styling surface development",
+      "Knowledge of ClassA and ClassB surfacing principles",
+      "Good understanding of design feasibility and manufacturing constraints"
+    ],
+    "experience": [
+      "Preferred 2\u20135 years of experience in automotive studio engineering or surfacing roles",
+      "Handson experience is strongly valued over formal qualifications",
+      "Experience gained through:",
+      "Automotive OEMs or design studios",
+      "Startups or prototype vehicle programs",
+      "SAE BAJA, Formula SAE, Formula Student, SUPRA, or similar competitions",
+      "Personal vehicle or designbuild projects",
+      "\u2026is considered equivalent to traditional professional experience."
+    ]
+  },
+  {
+    "id": "6",
+    "role": "Project Manager",
+    "dept": "Operations",
+    "loc": "Remote (Bangalore R&D Base)",
+    "description": [],
+    "job_id": "TM100000006L",
+    "role_overview": [
+      "Would you like to shape the future of autonomous urban mobility together with us?Turtle Mobility is seeking a Project Manager to lead crossfunctional automotive projects from concept to production and delivery. This role is central to aligning engineering, suppliers, cost, timelines, and execution-ensuring ideas turn into real, roadready vehicles.",
+      "The role is ideal for someone who understands automotive product development endtoend and thrives in fastmoving, engineeringdriven environments."
+    ],
+    "responsibilities": [
+      "Lead endtoend automotive projects from concept definition through development, validation, and industrialization",
+      "Own project scope, timelines, budgets, and delivery commitments",
+      "Define project plans, milestones, dependencies, and critical paths",
+      "Coordinate work across mechanical, EE, software, testing, manufacturing, and supplier teams",
+      "Track progress, identify risks, and proactively manage issues, dependencies, and mitigation plans",
+      "Drive crossfunctional alignment and decisionmaking to maintain project momentum",
+      "Ensure cost targets and delivery timelines are met without compromising quality",
+      "Manage internal and external stakeholders, including suppliers and partners",
+      "Support NPI (New Product Introduction) activities and phase gates",
+      "Maintain clear communication through concise status reporting and reviews",
+      "Enable a resultsdriven culture focused on execution rather than bureaucracy"
+    ],
+    "requirements": [
+      "Proven experience delivering automotive development projects",
+      "Strong understanding of vehicle development lifecycle",
+      "Good grasp of cost, timing, quality, and risk tradeoffs",
+      "Ability to coordinate technical teams and suppliers effectively",
+      "Strong problemsolving and decisionmaking skills"
+    ],
+    "experience": [
+      "Preferred 2\u20135 years of experience in automotive project management or program execution",
+      "Handson exposure to vehicle development is strongly valued",
+      "Experience gained through:",
+      "OEMs, Tier1s, or automotive startups",
+      "Managing subsystem or fullvehicle projects",
+      "SAE BAJA, Formula SAE, Formula Student, SUPRA, or similar competitions",
+      "Earlystage product or prototype programs",
+      "\u2026is considered equivalent to traditional professional experience."
+    ]
+  },
+  {
+    "id": "7",
+    "role": "Verification Engineer",
+    "dept": "Engineering",
+    "loc": "Remote (Bangalore R&D Base)",
+    "description": [],
+    "job_id": "TM100000007L",
+    "role_overview": [
+      "Would you like to shape the future of autonomous urban mobility together with us?Turtle Mobility is seeking a Verification Engineer to ensure system and software correctness through structured testing in simulated and lab environments. This role is critical to validating vehicle functionality before it reaches real roads and real users.",
+      "The position is well suited for engineers who enjoy finding issues early, working close to the system, and validating real vehicle behavior \u2014 not just specifications."
+    ],
+    "responsibilities": [
+      "Perform MIL (ModelintheLoop), SIL (SoftwareintheLoop), and HIL (HardwareintheLoop) testing for vehicle systems and features",
+      "Develop, review, and execute test cases, test scenarios, and test plans based on system and software requirements",
+      "Create and maintain test scripts and automation using CAPL or similar scripting languages",
+      "Configure and operate test benches, ECUs, and simulation environments",
+      "Validate functional behavior of vehicle systems, including drivebywire, joystick controls, braking, powertrain, and body electronics",
+      "Analyze test results, logs, and traces to identify defects and functional gaps",
+      "Perform rootcause analysis and work closely with development teams to support issue resolution",
+      "Ensure requirement traceability between specifications, test cases, and test results",
+      "Document verification results and support release readiness decisions",
+      "Contribute to improving verification processes, coverage, and efficiency"
+    ],
+    "requirements": [
+      "Strong experience with CANoe, CANalyzer, VT Studio, or similar tools",
+      "Knowledge of CAPL scripting for test automation",
+      "Understanding of automotive EE systems and communication protocols",
+      "Experience working with simulation and lab environments",
+      "Ability to work independently and methodically in testing workflows"
+    ],
+    "experience": [
+      "Preferred 2\u20135 years of experience in automotive verification, validation, or testing",
+      "Handson experience is valued over formal qualifications",
+      "Experience gained through:",
+      "OEMs, Tier1 suppliers, or automotive startups",
+      "SAE BAJA, Formula SAE, Formula Student, SUPRA, or similar competitions",
+      "University, student, or independent verification and testing projects",
+      "\u2026is considered equivalent to traditional professional experience."
+    ]
+  },
+  {
+    "id": "8",
+    "role": "Vehicle Test Engineer",
+    "dept": "Engineering",
+    "loc": "TBD",
+    "description": [
+      "Location: Remote (Bangalore R&D Base)",
+      "Turtle Mobility is building the world\u2019s first joystickbased electric microcar designed from the ground up for modern urban mobility. We strip away unnecessary complexity, focus on minimalistic and humancentric design, and combine autonomouslike convenience with real human control through remote driving.We build real vehicles for real cities."
+    ],
+    "job_id": "TM100000008",
+    "role_overview": [
+      "Would you like to shape the future of autonomous urban mobility together with us?Turtle Mobility is seeking a Vehicle Test Engineer to execute vehiclelevel functional, integration, and system testing. This role is highly handson and critical to ensuring our vehicles work reliably in realworld urban conditions."
+    ],
+    "responsibilities": [
+      "Perform vehiclelevel functional and integration testing across systems",
+      "Execute testing of drivebywire, joystick controls, braking, powertrain, and body electronics",
+      "Debug and troubleshoot vehicle issues at system and component levels",
+      "Plan, execute, and document test cases, test scenarios, and test reports",
+      "Conduct rootcause analysis and support issue resolution with engineering teams",
+      "Set up and operate test instrumentation, including data loggers, sensors, and measurement equipment (e.g., dataloggers, Sboxes, interface modules)",
+      "Capture and analyze vehicle logs to identify performance and functional issues",
+      "Support prototype testing, preproduction validation, and field testing",
+      "Collaborate closely with verification, integration, and system engineering teams",
+      "Ensure test coverage reflects realworld urban driving conditions",
+      "Maintain test vehicles and ensure readiness for testing activities"
+    ],
+    "requirements": [
+      "Experience with CANoe, CANalyzer, or similar vehicle network tools",
+      "Strong handson experience in vehicle testing and debugging",
+      "Good understanding of automotive EE and vehicle functions",
+      "Ability to work independently in test environments",
+      "Valid ClassB driving license is mandatory"
+    ],
+    "experience": [
+      "Preferred 2\u20135 years of experience in vehicle testing or automotive engineering",
+      "Handson experience is strongly valued over formal qualifications",
+      "Experience gained through:",
+      "Vehicle testing in OEMs, startups, or suppliers",
+      "SAE BAJA, Formula SAE, Formula Student, SUPRA, or similar competitions",
+      "Personal vehicle builds or modification projects",
+      "\u2026is considered equivalent to professional experience."
+    ]
+  },
+  {
+    "id": "9",
+    "role": "Build & Integration Engineer",
+    "dept": "Engineering",
+    "loc": "Remote (Bangalore R&D Base)",
+    "description": [],
+    "job_id": "TM100000009L",
+    "role_overview": [
+      "Support first builds and system integration."
+    ],
+    "responsibilities": [
+      "ECU, sensor, and harness integration & build",
+      "Software flashing and commissioning",
+      "Getting stakeholder approval."
+    ],
+    "requirements": [
+      "Strong handson integration skills",
+      "Valid ClassB driving license"
+    ],
+    "experience": [
+      "Preferred 2\u20135 years",
+      "Personal or competition vehicle build experience accepted"
+    ]
+  },
+  {
+    "id": "10",
+    "role": "Wiring Harness Engineer",
+    "dept": "Engineering",
+    "loc": "Remote (Bangalore R&D Base)",
+    "description": [],
+    "job_id": "TM100000010L",
+    "role_overview": [
+      "Design and release vehicle wiring systems."
+    ],
+    "responsibilities": [
+      "3D harness routing",
+      "2D drawing generation",
+      "Supplier discussion",
+      "Review of technical specification.",
+      "Support in PPAP of the part.",
+      "Getting stakeholder approval."
+    ],
+    "requirements": [
+      "CATIA / Creo or similar",
+      "Capital Harness, Saber, or similar",
+      "Develop electrical schematics for the vehicle system",
+      "Electrical parameter calculations like, volage drop analysis, current analysis, power management etc."
+    ],
+    "experience": [
+      "Preferred 2\u20135 years",
+      "Student harness projects considered"
+    ]
+  },
+  {
+    "id": "11",
+    "role": "EE Hardware Engineer",
+    "dept": "Engineering",
+    "loc": "Remote (Bangalore R&D Base)",
+    "description": [],
+    "job_id": "TM100000011L",
+    "role_overview": [
+      "Would you like to shape the future of autonomous urban mobility together with us?Turtle Mobility is seeking an EE Hardware Engineer to define, design, and validate the electrical and electronic hardware architecture of our vehicle. This role is central to building robust, safe, and scalable automotive electronics that enable intuitive drivebywire control and remote driving capabilities.",
+      "The role is ideal for handson engineers who enjoy working close to hardware, systems, and real vehicles rather than abstract concepts."
+    ],
+    "responsibilities": [
+      "Define vehicle EE hardware architecture, including ECUs, sensors, actuators, and power distribution",
+      "Specify ECU and sensor requirements, interfaces, and performance criteria",
+      "Support selection, evaluation, and integration of offtheshelf and custom electronic components",
+      "Define hardware test strategies and test requirements for validation and verification",
+      "Support bringup, debugging, and validation of ECUs and electronic systems",
+      "Work closely with system, software, verification, and integration teams to ensure seamless system behavior",
+      "Provide inputs related to functional safety (ISO 26262) concepts at hardware level",
+      "Support cybersecurity requirements related to EE hardware and interfaces",
+      "Review schematics, harness interfaces, power budgets, and grounding concepts",
+      "Participate in vehiclelevel integration, testing, and issue resolution",
+      "Contribute to design decisions with a focus on simplicity, reliability, cost, and scalability"
+    ],
+    "requirements": [
+      "Strong background in automotive EE hardware design and integration",
+      "Good understanding of ECUs, sensors, actuators, and vehicle networks",
+      "Familiarity with hardware validation and testing processes",
+      "Basic knowledge of functional safety and cybersecurity principles",
+      "Ability to work handson with real hardware and test setups"
+    ],
+    "experience": [
+      "Preferred 2\u20135 years of experience in automotive EE hardware or electronics engineering",
+      "Handson experience is valued more than formal qualifications",
+      "Experience gained through:",
+      "Automotive OEMs, Tier1 suppliers, or mobility startups",
+      "Hardware development projects",
+      "SAE BAJA, Formula SAE, Formula Student, SUPRA, or similar competitions",
+      "Personal or academic handson electronic hardware projects",
+      "\u2026is considered equivalent to traditional professional experience."
+    ]
+  },
+  {
+    "id": "12",
+    "role": "System Engineer",
+    "dept": "Engineering",
+    "loc": "Remote (Bangalore R&D Base)",
+    "description": [],
+    "job_id": "TM100000012L",
+    "role_overview": [
+      "Would you like to shape the future of autonomous urban mobility together with us?Turtle Mobility is seeking a System Engineer to own vehiclelevel system requirements and functional decomposition. This role is key to translating highlevel vehicle functions into clear, structured, and testable system requirements that guide hardware, software, and verification teams.",
+      "This position is ideal for engineers who enjoy connecting the dots across disciplines and ensuring the vehicle functions as a coherent whole - not just as isolated components."
+    ],
+    "responsibilities": [
+      "Own and manage vehiclelevel and systemlevel requirements across EE, software, and functional domains",
+      "Decompose highlevel vehicle features into clear, structured, and testable system requirements",
+      "Define functional behavior, interfaces, and interactions between systems and subsystems",
+      "Maintain requirement traceability across system, software, hardware, and verification activities",
+      "Work closely with system architects, EE hardware, embedded software, verification, and test teams",
+      "Support requirement reviews, change management, and impact analysis",
+      "Ensure system requirements align with functional safety concepts and vehicle safety goals",
+      "Provide inputs for cybersecurity considerations at system level",
+      "Support validation and verification activities to ensure requirements are correctly implemented",
+      "Participate in issue analysis, rootcause investigations, and requirement refinement",
+      "Contribute to building a simple, robust, and scalable system architecture aligned with Turtle Mobility\u2019s design philosophy"
+    ],
+    "requirements": [
+      "Experience with requirement management tools such as DOORS, CodeBeamer, Polarion, or equivalent",
+      "Strong understanding of automotive system engineering principles",
+      "Knowledge of functional safety and cybersecurity concepts.",
+      "Ability to structure complex problems into clear system definitions",
+      "Good communication skills to align multiple stakeholders around a common system view"
+    ],
+    "experience": [
+      "Preferred 2\u20135 years of experience in automotive system engineering or related roles",
+      "Handson vehicle development experience is highly valued",
+      "Experience gained through:",
+      "Automotive OEMs, Tier1 suppliers, or mobility startups",
+      "Crossfunctional system definition roles",
+      "SAE BAJA, Formula SAE, Formula Student, SUPRA, or similar competitions",
+      "Student or independent system engineering projects",
+      "\u2026is considered equivalent to traditional professional experience."
+    ]
+  },
+  {
+    "id": "13",
+    "role": "System Architect",
+    "dept": "Design",
+    "loc": "Remote (Bangalore R&D Base)",
+    "description": [],
+    "job_id": "TM100000013L",
+    "role_overview": [
+      "Would you like to shape the future of autonomous urban mobility together with us?Turtle Mobility is seeking a System Architect to define and own the vehiclelevel EE system architecture. This role is responsible for creating a coherent, safe, secure, and scalable endtoend system that connects hardware, software, networks, and vehicle functions into a single robust architecture.",
+      "The System Architect operates at the vehicle level, balancing technical feasibility, safety, cybersecurity, regulatory requirements, cost, and longterm scalability."
+    ],
+    "responsibilities": [
+      "Define and own the endtoend vehicle EE system architecture, including ECUs, networks, sensors, actuators, and interfaces",
+      "Establish system partitioning, communication architecture, and functional allocation across vehicle domains",
+      "Define architectural principles that support drivebywire, joystick control, and remote driving use cases",
+      "Ensure alignment between vehicle functions, system behavior, and technical implementation",
+      "Provide architectural guidance to system engineers, EE hardware, embedded software, and verification teams",
+      "Define and maintain systemlevel interface definitions and boundary conditions",
+      "Ensure architecture compliance with functional safety (ISO 26262) concepts and safety goals",
+      "Provide systemlevel inputs for cybersecurity strategy and threat mitigation",
+      "Support homologation and regulatory compliance by ensuring architectural alignment with legal requirements",
+      "Evaluate tradeoffs between performance, cost, complexity, scalability, and maintainability",
+      "Support technical decisionmaking during development, integration, and issue resolution",
+      "Review system changes for architectural impact and longterm sustainability",
+      "Contribute to a minimalistic, robust, and productionready vehicle architecture aligned with Turtle Mobility\u2019s vision"
+    ],
+    "requirements": [
+      "Strong expertise in vehicle EE architecture and systemlevel design",
+      "Deep understanding of automotive networks, ECUs, and distributed systems",
+      "Knowledge of functional safety principles and safety concept development",
+      "Understanding of automotive cybersecurity concepts",
+      "Awareness of homologation, certification, and regulatory constraints",
+      "Ability to think across hardware, software, and system boundaries",
+      "Strong communication skills to align multiple technical stakeholders"
+    ],
+    "experience": [
+      "Preferred 5-8 years of experience in automotive system architecture, EE architecture, or related roles",
+      "Handson vehicle development experience is strongly valued",
+      "Experience gained through:",
+      "Automotive OEMs, Tier1 suppliers, or mobility startups",
+      "Vehicle EE or E/E system architecture roles",
+      "SAE BAJA, Formula SAE, Formula Student, SUPRA, or similar competitions",
+      "Endtoend vehicle or subsystem ownership in earlystage programs",
+      "\u2026is considered equivalent to traditional professional experience."
+    ]
+  },
+  {
+    "id": "14",
+    "role": "Embedded Software Application Engineer",
+    "dept": "Engineering",
+    "loc": "Remote (Bangalore R&D Base)",
+    "description": [],
+    "job_id": "TM100000014L",
+    "role_overview": [
+      "Would you like to shape the future of autonomous urban mobility together with us?Turtle Mobility is seeking an Embedded Software Application Engineer to design, develop, and integrate embedded software applications that directly control and enable vehicle functionality.",
+      "This role is ideal for engineers who enjoy working close to hardware, understanding real vehicle behavior, and building robust software that runs on real embedded systems-not simulations alone."
+    ],
+    "responsibilities": [
+      "Develop and maintain embedded automotive application software in C / C++",
+      "Implement application logic for vehicle functions such as drivebywire, joystick control, remote driving interfaces, body electronics, and diagnostics",
+      "Integrate software with ECUs, sensors, actuators, and vehicle networks",
+      "Support software bringup, debugging, and integration on target hardware",
+      "Collaborate closely with EE hardware, system, and verification engineers to ensure correct system behavior",
+      "Support unit testing, integration testing, and systemlevel validation activities",
+      "Debug issues using logs, traces, and ontarget debugging tools",
+      "Ensure software meets functional, timing, safety, and reliability requirements",
+      "Contribute to software design decisions with a focus on simplicity, robustness, and maintainability",
+      "Participate in issue resolution during vehicle integration and testing phases",
+      "Document software behavior, interfaces, and limitations clearly for crossfunctional teams"
+    ],
+    "requirements": [
+      "Strong programming skills in C / C++",
+      "Experience developing software for automotive or embedded systems",
+      "Understanding of embedded system constraints (memory, timing, performance)",
+      "Familiarity with ECUbased development and automotive development workflows",
+      "Ability to debug software on real hardware platforms"
+    ],
+    "experience": [
+      "Preferred 2\u20135 years of experience in automotive embedded software development",
+      "Handson experience is valued more than formal qualifications",
+      "Experience gained through:",
+      "Automotive OEMs, Tier1s, or mobility startups",
+      "Embedded ECU or controller development projects",
+      "SAE BAJA, Formula SAE, Formula Student, SUPRA, or similar competitions",
+      "University, personal, or hobbyist ECU / embedded system projects",
+      "\u2026is considered equivalent to traditional professional experience."
+    ]
+  },
+  {
+    "id": "15",
+    "role": "Certification Engineer",
+    "dept": "Engineering",
+    "loc": "Remote (Bangalore R&D Base)",
+    "description": [],
+    "job_id": "TM100000015L",
+    "role_overview": [
+      "Would you like to shape the future of autonomous urban mobility together with us?Turtle Mobility is seeking a Certification Engineer to lead vehicle homologation and certification activities across global markets. This role is responsible for ensuring our vehicle complies with applicable legal, regulatory, and safety requirements-turning an innovative product into a roadlegal, marketready vehicle.",
+      "The role suits engineers who understand that great engineering must also survive realworld regulations, audits, and approvals."
+    ],
+    "responsibilities": [
+      "Lead vehicle homologation and type approval activities across regions and markets",
+      "Identify and interpret applicable regulatory and legal requirements for vehicle certification",
+      "Define certification strategies aligned with vehicle architecture, production plans, and target markets",
+      "Work closely with system, EE, mechanical, testing, and production teams to ensure compliance from early development stages",
+      "Coordinate and manage certification testing, documentation, and submission activities",
+      "Interface with certification agencies, technical services, authorities, and test laboratories",
+      "Ensure compliance with vehicle safety, lighting, braking, EE systems, and environmental regulations",
+      "Support conformity of production (CoP) planning and audits",
+      "Track regulatory changes and assess their impact on vehicle design and roadmap",
+      "Support documentation for compliance, declarations, and regulatory submissions",
+      "Act as the central point of contact for certificationrelated queries during development and launch",
+      "Balance regulatory compliance with Turtle Mobility\u2019s goals of simplicity, costeffectiveness, and scalability"
+    ],
+    "requirements": [
+      "Strong knowledge of global automotive regulations and standards, including:",
+      "UNECE",
+      "FMVSS",
+      "AIS",
+      "ADR",
+      "ISO standards",
+      "JIS",
+      "Understanding of homologation and certification processes",
+      "Ability to translate regulatory requirements into actionable engineering guidance",
+      "Strong coordination and communication skills across technical and nontechnical teams"
+    ],
+    "experience": [
+      "Preferred 2\u20135 years of experience in vehicle certification, homologation, or regulatory compliance",
+      "Handson exposure to certification projects is strongly valued",
+      "Experience gained through:",
+      "Automotive OEMs, Tier1 suppliers, or mobility startups",
+      "Type approval or regulatory compliance roles",
+      "Vehicle development programs with homologation exposure",
+      "SAE BAJA, Formula SAE, Formula Student, SUPRA, or similar competitions involving rule compliance",
+      "\u2026is considered equivalent to traditional professional experience."
+    ]
+  },
+  {
+    "id": "16",
+    "role": "Finance Controller",
+    "dept": "Finance",
+    "loc": "Remote (Bangalore R&D Base)",
+    "description": [],
+    "job_id": "TM100000016L",
+    "role_overview": [
+      "Would you like to shape the future of autonomous urban mobility together with us?Turtle Mobility is seeking a Finance Controller to manage financial planning, budgeting, forecasting, and reporting for a fastgrowing automotive startup.",
+      "This role is critical in ensuring financial discipline while enabling innovation \u2014 striking the right balance between cost control, transparency, and agility in an engineeringdriven organization."
+    ],
+    "responsibilities": [
+      "Own financial planning, budgeting, and forecasting across engineering, operations, and programs",
+      "Prepare and manage monthly, quarterly, and annual financial reports",
+      "Track project and program costs, ensuring alignment with budgets and strategic priorities",
+      "Monitor cash flow, burn rate, and financial runway to support informed decisionmaking",
+      "Support leadership with financial insights, variance analysis, and cost optimization proposals",
+      "Work closely with engineering, sourcing, and production teams to align technical decisions with financial impact",
+      "Establish and maintain bookkeeping, accounting controls, and financial processes",
+      "Support audits, compliance, and statutory reporting as required",
+      "Assist in vendor payment planning and cost tracking",
+      "Enable scalable finance processes suitable for product development and future production rampup",
+      "Support fundraising, investor reporting, and financial documentation as needed",
+      "Promote a costconscious yet executionfocused culture across the organization"
+    ],
+    "requirements": [
+      "Strong background in finance, accounting, and financial control",
+      "Experience with budgeting, forecasting, and financial reporting",
+      "Understanding of cost structures in engineering or manufacturingdriven organizations",
+      "Ability to work in fastmoving, crossfunctional startup environments",
+      "Strong analytical and communication skills",
+      "Handson mindset with attention to detail and ownership"
+    ],
+    "experience": [
+      "Preferred 2\u20135 years of experience in finance, controlling, or accounting roles",
+      "Startup or automotive exposure is a strong advantage",
+      "Experience gained through:",
+      "Automotive, manufacturing, or engineeringcentric organizations",
+      "Earlystage startups or scaleups",
+      "Highownership finance roles with crossfunctional interaction",
+      "\u2026is considered equivalent to traditional professional experience."
+    ]
+  },
+  {
+    "id": "17",
+    "role": "Buyer / Sourcing Engineer",
+    "dept": "Operations",
+    "loc": "Remote (Bangalore R&D Base)",
+    "description": [],
+    "job_id": "TM100000017L",
+    "role_overview": [
+      "Would you like to shape the future of autonomous urban mobility together with us?Turtle Mobility is seeking a Buyer / Sourcing Engineer to build, manage, and scale our supplier network. This role plays a critical part in ensuring the right components, at the right cost, with the right quality and timelines-enabling us to build affordable and scalable vehicles without unnecessary complexity.",
+      "This role is ideal for someone who understands both engineering intent and commercial reality."
+    ],
+    "responsibilities": [
+      "Build and manage Turtle Mobility\u2019s supplier ecosystem across mechanical, electrical, and electronic components",
+      "Identify, evaluate, and onboard suitable suppliers aligned with cost, quality, and scalability goals",
+      "Conduct supplier audits and capability assessments",
+      "Float RFQs, collect quotations, and perform technical and commercial evaluations",
+      "Lead supplier negotiations to achieve competitive pricing, cost transparency, and longterm partnerships",
+      "Work closely with engineering teams to ensure sourcing decisions align with design intent and manufacturability",
+      "Support early sourcing activities during concept and prototype phases",
+      "Track supplier performance related to cost, quality, delivery, and compliance",
+      "Support cost reduction and valueengineering initiatives",
+      "Coordinate with suppliers during prototype builds, validation, and production rampup",
+      "Ensure sourcing decisions align with Turtle Mobility\u2019s philosophy of simplicity, reliability, and sustainability"
+    ],
+    "requirements": [
+      "Strong experience in automotive sourcing and procurement",
+      "Understanding of automotive components, materials, and manufacturing processes",
+      "Experience with RFQs, supplier negotiation, and cost breakdown analysis",
+      "Ability to work closely with engineering, cost, and production teams",
+      "Strong communication and suppliermanagement skills",
+      "Handson, ownershipdriven mindset suited for a startup environment"
+    ],
+    "experience": [
+      "Preferred 2\u20135 years of experience in automotive sourcing, procurement, or supplier management",
+      "Handson experience is valued more than formal qualifications",
+      "Experience gained through:",
+      "Automotive OEMs, Tier1 suppliers, or mobility startups",
+      "Supplier development or procurement roles",
+      "Vehicle prototype or production programs",
+      "SAE BAJA, Formula SAE, Formula Student, SUPRA, or similar competitions involving sourcing activities",
+      "\u2026is considered equivalent to traditional professional experience."
+    ]
+  },
+  {
+    "id": "18",
+    "role": "Production Engineer",
+    "dept": "Operations",
+    "loc": "Bangalore (Onsite)",
+    "description": [],
+    "job_id": "TM100000018L",
+    "role_overview": [
+      "This is a handson role that sits at the intersection of engineering, manufacturing, quality, and supply chain \u2014 ideal for someone who enjoys building things on the shop floor, not just on slides."
+    ],
+    "responsibilities": [
+      "Set up and continuously improve vehicle assembly lines for lowvolume and scalable production",
+      "Define and implement assembly processes, work instructions, and SOPs",
+      "Support new product introduction (NPI) from prototype builds to series production",
+      "Ensure firsttimeright builds through process validation and pokayoke methods",
+      "Manage production quality, conducting rootcause analysis and corrective actions",
+      "Coordinate with design, build, and integration teams to resolve manufacturability issues",
+      "Support tooling, jigs, fixtures, and equipment selection and commissioning",
+      "Ensure line uptime, material availability, and production readiness",
+      "Collaborate with suppliers and logistics teams on part delivery and quality",
+      "Monitor and improve cycle time, throughput, and cost efficiency",
+      "Support regulatory, safety, and internal quality audits",
+      "Drive a handson, problemsolving culture on the shop floor"
+    ],
+    "requirements": [],
+    "experience": [
+      "Preferred 2\u20135 years of experience in automotive manufacturing or production engineering",
+      "Experience in assembly line setup, NPI, or lowvolume vehicle builds is highly valued",
+      "Handson experience matters more than titles or degrees",
+      "Experience gained through:",
+      "Building or modifying personal vehicles",
+      "Participation in SAE BAJA, Formula SAE, Formula Student, SUPRA, or similar competitions",
+      "Startup or prototype vehicle programs",
+      "\u2026is strongly considered equivalent to traditional professional experience."
+    ]
+  }
+]

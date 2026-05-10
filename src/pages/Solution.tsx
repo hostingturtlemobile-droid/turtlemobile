@@ -7,7 +7,7 @@ const Solution: React.FC = () => {
         {/* Hero Section: The Remote Synthesis */}
         <section className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center mb-32">
           <div className="lg:col-span-5 order-2 lg:order-1">
-            <div className="font-body font-semibold text-turtle-dark/75 tracking-[0.12em] uppercase text-xs mb-6">Archive Vol. 04 — Modern Solutions</div>
+            <div className="font-body font-semibold text-turtle-dark/75 tracking-[0.12em] uppercase text-xs mb-6">Archive Vol. 04 - Modern Solutions</div>
             <h1 className="text-4xl md:text-8xl font-headline font-extrabold leading-[1.1] tracking-[-0.02em] mb-8">The Remote <br/><span className="italic font-normal">Synthesis.</span></h1>
             <p className="font-body text-xl text-on-surface-variant leading-relaxed mb-12 max-w-xl">
               Bridging the physical gap through digital fidelity. Turtle Mobility introduces a refined paradigm where human intuition meets high-bandwidth tele-operation, solving the urban logjam through sophisticated remote oversight.

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 const ChusMobility: React.FC = () => {
   return (
     <div className="bg-turtle-light min-h-screen pt-32 pb-20 px-6 md:px-12">
@@ -64,9 +64,12 @@ const ChusMobility: React.FC = () => {
         {/* CTA */}
         <div className="text-center">
           <h2 className="text-2xl font-display font-bold mb-6">Need a custom mobility solution?</h2>
-          <button className="bg-turtle-teal text-turtle-light px-12 py-5 rounded-full font-bold uppercase text-xs tracking-widest hover:bg-turtle-dark transition-all shadow-xl">
+          <Link 
+            to="/contact" 
+            className="inline-block bg-turtle-teal text-turtle-light px-12 py-5 rounded-xl font-bold uppercase text-xs tracking-widest hover:bg-turtle-dark transition-all shadow-xl"
+          >
             Partner with Chus
-          </button>
+          </Link>
         </div>
       </div>
     </div>

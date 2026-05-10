@@ -8,6 +8,7 @@ import kidsImg from '../assets/graphics/kids.png';
 import elderlyImg from '../assets/graphics/elderly.png';
 import airportImg from '../assets/graphics/airport.png';
 import wheelchairAccessible from '../assets/wheelchair-accessible.png';
+import kissFeaturesBg from '../assets/kiss_features_bg.png';
 
 const Home: React.FC = () => {
 
@@ -15,37 +16,38 @@ const Home: React.FC = () => {
   return (
     <div className="bg-turtle-light min-h-screen font-body text-turtle-dark overflow-x-hidden">
       {/* Hero Section */}
-      <section className="relative min-h-[calc(100vh-80px)] px-6 flex flex-col justify-between pt-32 pb-10 max-w-screen-xl mx-auto">
+      <section className="relative min-h-screen px-6 flex flex-col justify-between pt-32 pb-16 max-w-screen-xl mx-auto">
         {/* Top Header Text */}
         <div className="text-center z-10 flex flex-col items-center">
-          <h1 className="text-4xl md:text-7xl font-headline font-extrabold leading-[1.1] tracking-[-0.03em] max-w-[1000px] animate-fade-in-up delay-1000 bg-clip-text text-transparent bg-gradient-to-b from-turtle-dark to-turtle-teal/80">
-            World’s first <br /> one-hand-drive minimalistic <br /> micro car!
+          <h1 className="text-4xl md:text-6xl font-headline font-extrabold leading-[1.1] tracking-[-0.03em] max-w-[1000px] animate-fade-in-up delay-1000 bg-clip-text text-transparent bg-gradient-to-b from-turtle-dark to-turtle-teal/80">
+            World’s first <br /> one-hand-drive <br /> micro car!
           </h1>
-
         </div>
 
         {/* Hero Image - Centered and Cinematic with descriptive texts */}
-        <div className="relative flex-grow flex flex-col items-center justify-center py-4">
-          <p className="text-xl md:text-3xl font-display font-bold text-turtle-dark mb-6 animate-fade-in-up delay-[1600ms] text-center max-w-2xl">
+        <div className="relative flex-grow flex flex-col items-center justify-center w-full gap-4 md:gap-6 py-4">
+          <p className="text-lg md:text-2xl font-display font-bold text-turtle-dark animate-fade-in-up delay-[1600ms] text-center max-w-2xl">
             Zip through the traffic like never before!
           </p>
-          <div className="relative flex items-center justify-center">
+          
+          <div className="relative flex items-center justify-center w-full">
             <img 
               src={heroImage} 
               alt="Turtle Mobility Car" 
-              className="w-auto h-full max-h-[45vh] object-contain animate-slide-in delay-[1400ms] z-10 drop-shadow-sm" 
+              className="w-full max-w-4xl h-auto max-h-[48vh] object-contain animate-slide-in delay-[1400ms] z-10 drop-shadow-2xl hover:scale-105 transition-transform duration-700" 
             />
           </div>
-          <p className="text-lg md:text-2xl font-body font-semibold text-turtle-teal mt-8 animate-fade-in-up delay-[1800ms] text-center">
+
+          <p className="text-base md:text-xl font-body font-semibold text-turtle-teal animate-fade-in-up delay-[1800ms] text-center">
             Remotely driven autonomous micro car
           </p>
         </div>
       </section>
 
       {/* Statistics Section */}
-      <section className="min-h-screen flex flex-col items-center justify-center px-6 py-20 bg-white">
-        <div className="max-w-4xl mx-auto text-center flex flex-col items-center gap-10">
-          <div className="space-y-4">
+      <section className="min-h-screen flex flex-col items-center justify-center px-6 py-12 md:py-16 bg-white">
+        <div className="max-w-4xl mx-auto text-center flex flex-col items-center gap-6">
+          <div className="space-y-2">
             <h2 className="text-3xl md:text-5xl font-headline font-bold text-turtle-dark">
               Why go for a <span className="normal-case">KiSS</span>?
             </h2>
@@ -54,11 +56,11 @@ const Home: React.FC = () => {
             </p>
           </div>
 
-          <div className="w-full max-w-3xl py-8">
+          <div className="w-full max-w-3xl py-2">
             <img 
               src={passengerStats} 
               alt="Passenger Occupancy Statistics" 
-              className="w-full h-auto drop-shadow-xl rounded-2xl"
+              className="w-full h-auto max-h-[40vh] object-contain drop-shadow-xl rounded-2xl mx-auto"
             />
           </div>
 
@@ -77,9 +79,9 @@ const Home: React.FC = () => {
       </section>
 
       {/* ClouDrive Section */}
-      <section className="min-h-screen flex flex-col items-center justify-center px-6 py-20 bg-turtle-light">
-        <div className="max-w-6xl mx-auto text-center flex flex-col items-center gap-12">
-          <div className="space-y-6">
+      <section className="min-h-screen flex flex-col items-center justify-center px-6 py-12 md:py-16 bg-turtle-light">
+        <div className="max-w-6xl mx-auto text-center flex flex-col items-center gap-6 md:gap-8">
+          <div className="space-y-3">
             <h2 className="text-3xl md:text-5xl font-headline font-bold text-turtle-dark italic">
               ClouDrive <span className="text-2xl align-top">™</span> - Autonomy with Human Intelligence!
             </h2>
@@ -88,11 +90,11 @@ const Home: React.FC = () => {
             </p>
           </div>
 
-          <div className="w-full relative group">
+          <div className="w-full relative group max-w-5xl mx-auto">
             <img 
               src={cloudTM} 
               alt="ClouDrive Remote Driver Rig" 
-              className="w-full h-auto drop-shadow-2xl rounded-3xl object-cover"
+              className="w-full h-auto max-h-[45vh] object-cover drop-shadow-2xl rounded-3xl mx-auto"
             />
             <div className="absolute inset-0 rounded-3xl ring-1 ring-inset ring-black/5" />
           </div>
@@ -100,11 +102,11 @@ const Home: React.FC = () => {
       </section>
 
       {/* Bento Grid Features Section */}
-      <section className="min-h-screen flex flex-col items-center justify-center px-4 md:px-6 py-20 md:py-32 bg-white overflow-hidden">
+      <section className="min-h-screen flex flex-col items-center justify-center px-4 md:px-6 py-12 md:py-16 bg-white overflow-hidden">
         <div className="max-w-7xl mx-auto w-full">
-          <div className="grid grid-cols-1 md:grid-cols-6 gap-6 mb-20 md:mb-24">
+          <div className="grid grid-cols-1 md:grid-cols-6 gap-4 md:gap-6 mb-12 md:mb-16">
             {/* Parking - Big Card */}
-            <div className="md:col-span-4 relative group rounded-[2rem] md:rounded-[2.5rem] overflow-hidden min-h-[450px] md:h-[500px] shadow-2xl flex flex-col justify-end">
+            <div className="md:col-span-4 relative group rounded-[2rem] md:rounded-[2.5rem] overflow-hidden min-h-[300px] md:h-[35vh] shadow-2xl flex flex-col justify-end">
               <img src={parkingImg} alt="Remote Parking" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-turtle-dark/90 via-turtle-dark/20 to-transparent" />
               <div className="relative p-6 md:p-12 w-full">
@@ -117,7 +119,7 @@ const Home: React.FC = () => {
             </div>
 
             {/* Kids - Side Card */}
-            <div className="md:col-span-2 relative group rounded-[2rem] md:rounded-[2.5rem] overflow-hidden min-h-[400px] md:h-[500px] shadow-2xl flex flex-col justify-end">
+            <div className="md:col-span-2 relative group rounded-[2rem] md:rounded-[2.5rem] overflow-hidden min-h-[300px] md:h-[35vh] shadow-2xl flex flex-col justify-end">
               <img src={kidsImg} alt="Remote Kids Pickup" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-turtle-dark/90 via-turtle-dark/20 to-transparent" />
               <div className="relative p-6 w-full">
@@ -130,7 +132,7 @@ const Home: React.FC = () => {
             </div>
 
             {/* Aging Parents - Bottom Half */}
-            <div className="md:col-span-3 relative group rounded-[2rem] md:rounded-[2.5rem] overflow-hidden min-h-[400px] shadow-2xl flex flex-col justify-end">
+            <div className="md:col-span-3 relative group rounded-[2rem] md:rounded-[2.5rem] overflow-hidden min-h-[300px] md:h-[35vh] shadow-2xl flex flex-col justify-end">
               <img src={elderlyImg} alt="Remote Elderly Ferry" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-turtle-dark/90 via-turtle-dark/20 to-transparent" />
               <div className="relative p-6 md:p-8 w-full">
@@ -143,7 +145,7 @@ const Home: React.FC = () => {
             </div>
 
             {/* Airport - Bottom Half */}
-            <div className="md:col-span-3 relative group rounded-[2rem] md:rounded-[2.5rem] overflow-hidden min-h-[400px] shadow-2xl flex flex-col justify-end">
+            <div className="md:col-span-3 relative group rounded-[2rem] md:rounded-[2.5rem] overflow-hidden min-h-[300px] md:h-[35vh] shadow-2xl flex flex-col justify-end">
               <img src={airportImg} alt="Remote Airport Trip" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-turtle-dark/90 via-turtle-dark/20 to-transparent" />
               <div className="relative p-6 md:p-8 w-full">
@@ -157,7 +159,7 @@ const Home: React.FC = () => {
           </div>
 
           {/* Bottom Heading */}
-          <div className="text-center space-y-8">
+          <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-6xl font-headline font-black text-turtle-dark uppercase tracking-tight italic leading-tight">
               CLOUDRIVE ™ - YOUR PERSONAL <br /> REMOTE DRIVER ON YOUR WISH 24/7
             </h2>
@@ -172,17 +174,22 @@ const Home: React.FC = () => {
       </section>
 
       {/* Accessibility Section */}
-      <section className="min-h-screen flex flex-col items-center justify-center px-6 py-20 bg-turtle-light">
-        <div className="max-w-6xl mx-auto text-center flex flex-col items-center gap-12">
-          <h2 className="text-2xl md:text-4xl font-headline font-bold text-turtle-dark leading-relaxed max-w-4xl">
-            Designed for all! Wheelchair friendly ergonomic egress ingress sliding ramp.
-          </h2>
+      <section className="min-h-screen flex flex-col items-center justify-center px-6 py-12 md:py-16 bg-turtle-light">
+        <div className="max-w-6xl mx-auto text-center flex flex-col items-center gap-6 md:gap-8">
+          <div className="space-y-2">
+            <h2 className="text-4xl md:text-6xl font-headline font-extrabold text-turtle-teal tracking-tight">
+              Designed for all!
+            </h2>
+            <h3 className="text-xl md:text-3xl font-headline font-semibold text-turtle-dark/90 leading-relaxed max-w-4xl">
+              Wheelchair friendly ergonomic egress ingress sliding ramp.
+            </h3>
+          </div>
 
           <div className="w-full relative group">
             <img 
               src={wheelchairAccessible} 
               alt="Wheelchair Accessible Features" 
-              className="w-full h-auto drop-shadow-2xl rounded-[2.5rem] object-cover"
+              className="w-full h-auto max-h-[45vh] drop-shadow-2xl rounded-[2.5rem] object-cover mx-auto"
             />
           </div>
 
@@ -193,6 +200,50 @@ const Home: React.FC = () => {
             <p className="text-4xl md:text-6xl font-display font-black text-turtle-teal uppercase tracking-tighter italic">
               free!
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* KiSS Features Section */}
+      <section className="relative min-h-[80vh] flex flex-col items-center justify-center px-6 py-32 text-turtle-light overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <img src={kissFeaturesBg} alt="Turtle Mobility KiSS urban environment" className="w-full h-full object-cover object-center" />
+        </div>
+
+        {/* Content */}
+        <div className="relative z-10 max-w-7xl mx-auto w-full h-full flex flex-col justify-between py-12 px-4 md:px-8">
+          {/* Top Heading */}
+          <div className="w-full text-center mb-24 md:mb-32">
+            <h2 className="text-3xl md:text-5xl lg:text-6xl font-display font-medium leading-tight max-w-4xl mx-auto text-white drop-shadow-xl">
+              Convenience of an Autonomous car at the expense of conventional scooter!
+            </h2>
+          </div>
+
+          {/* Bottom Area: Stats (Left) and Desc (Right) */}
+          <div className="w-full flex flex-col md:flex-row justify-between items-end gap-12 mt-auto">
+            {/* Stats vertically stacked on left side */}
+            <div className="flex flex-col space-y-8 text-left border-l-2 border-white/30 pl-6 shrink-0">
+              <div className="space-y-1">
+                <p className="text-4xl md:text-5xl font-headline font-bold text-white drop-shadow-md">60 km/h</p>
+                <p className="text-sm md:text-base font-body text-white/90 drop-shadow-md uppercase tracking-wider">Top Speed</p>
+              </div>
+              <div className="space-y-1">
+                <p className="text-4xl md:text-5xl font-headline font-bold text-white drop-shadow-md">140 km</p>
+                <p className="text-sm md:text-base font-body text-white/90 drop-shadow-md uppercase tracking-wider">WLTP Range</p>
+              </div>
+              <div className="space-y-1">
+                <p className="text-4xl md:text-5xl font-headline font-bold text-white drop-shadow-md">30 km</p>
+                <p className="text-sm md:text-base font-body text-white/90 drop-shadow-md uppercase tracking-wider">Charge in 10 min*</p>
+              </div>
+            </div>
+
+            {/* Description aligned to bottom right */}
+            <div className="max-w-lg md:text-right">
+              <p className="text-lg md:text-xl font-display font-medium text-white drop-shadow-lg leading-relaxed">
+                <span className="font-bold">KiSS</span> is a joystick-based control, electric, 2 seater microcar designed for modern urban mobility. It prioritizes simplicity, sustainability, and security with real human control.
+              </p>
+            </div>
           </div>
         </div>
       </section>

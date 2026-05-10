@@ -36,7 +36,7 @@ const Investor: React.FC = () => {
             <p className="opacity-70 leading-relaxed mb-8">
               "We aren't just selling rides. We are selling the recapture of urban time. Our financial model relies on the extreme efficiency of high-utilization remote-drive fleets, eliminating the idle time of traditional vehicle ownership."
             </p>
-            <p className="text-turtle-teal font-bold text-sm">— Marcus V., Chief Investment Officer</p>
+            <p className="text-turtle-teal font-bold text-sm">- Marcus V., Chief Investment Officer</p>
           </div>
           <div className="space-y-6">
             <div className="bg-white/5 p-6 rounded-2xl flex justify-between items-center border border-white/10 hover:bg-white/10 transition-all cursor-pointer">

@@ -40,7 +40,7 @@ const Challenge: React.FC = () => {
               </h2>
               <div className="space-y-8 text-on-surface-variant leading-relaxed font-body text-lg">
                 <p>
-                  The average urban commuter now spends over 150 hours per year stationary in traffic. What was once the pinnacle of freedom—the private automobile—has evolved into a localized constraint, suffocating the very arteries of commerce and connection it was intended to serve.
+                  The average urban commuter now spends over 150 hours per year stationary in traffic. What was once the pinnacle of freedom - the private automobile - has evolved into a localized constraint, suffocating the very arteries of commerce and connection it was intended to serve.
                 </p>
                 <p>
                   At Turtle Mobility, we analyze the architectural failure of traditional transit through a lens of archival precision and modern telemetry.

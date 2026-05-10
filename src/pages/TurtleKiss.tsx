@@ -10,7 +10,7 @@ const TurtleKiss: React.FC = () => {
             The KiSS <br/> <span className="text-turtle-teal">Manifesto.</span>
           </h1>
           <p className="text-xl md:text-2xl font-body text-turtle-teal max-w-2xl leading-relaxed">
-            Keep it Simple & Sustainable. This isn't just a slogan—it's our technical and design blueprint.
+            Keep it Simple & Sustainable. This isn't just a slogan - it's our technical and design blueprint.
           </p>
         </div>
 
@@ -32,7 +32,7 @@ const TurtleKiss: React.FC = () => {
         <div className="max-w-4xl mb-32">
           <h2 className="text-3xl font-display font-bold mb-8">Design Language 1.0</h2>
           <p className="text-lg text-turtle-dark/80 leading-relaxed mb-8">
-            Our design language is inspired by the turtle—nature's most efficient protector. It's about a hard, resilient shell protecting a soft, intuitive interior. 
+            Our design language is inspired by the turtle - nature's most efficient protector. It's about a hard, resilient shell protecting a soft, intuitive interior. 
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="border-l-4 border-turtle-teal pl-8 py-4">
