@@ -300,17 +300,9 @@ const Career: React.FC = () => {
                 </div>
 
                 <div>
-                  <label className="block text-sm font-bold uppercase tracking-widest text-turtle-dark/70 mb-2">CV / Resume Upload *</label>
-                  <div className="w-full bg-white border border-dashed border-turtle-dark/20 rounded-xl px-4 py-6 text-center hover:border-turtle-teal transition-colors cursor-pointer relative group">
-                    <input required name="attachment" type="file" className="absolute inset-0 w-full h-full opacity-0 cursor-pointer" accept=".pdf,.doc,.docx" />
-                    <div className="text-turtle-dark/40 group-hover:text-turtle-teal mb-2 transition-colors">
-                      <svg className="w-8 h-8 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
-                      </svg>
-                    </div>
-                    <p className="text-sm font-bold text-turtle-dark">Click to upload or drag and drop</p>
-                    <p className="text-xs text-turtle-dark/50 mt-1">PDF, DOC, DOCX up to 10MB</p>
-                  </div>
+                  <label className="block text-sm font-bold uppercase tracking-widest text-turtle-dark/70 mb-2">Link to LinkedIn / Portfolio / Resume *</label>
+                  <input required name="LinkedIn / Portfolio / Resume Link" type="url" className="w-full bg-white border border-turtle-dark/10 rounded-xl px-4 py-3 focus:outline-none focus:border-turtle-teal" placeholder="e.g. LinkedIn profile, Google Drive link, or Portfolio URL" />
+                  <p className="text-xs text-turtle-dark/50 mt-2">Please ensure the link is publicly accessible so we can view your work.</p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
