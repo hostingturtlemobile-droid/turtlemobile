@@ -11,6 +11,9 @@ import Career from './pages/Career';
 import Investor from './pages/Investor';
 import ChusMobility from './pages/ChusMobility';
 import TurtleKiss from './pages/TurtleKiss';
+import Privacy from './pages/Privacy';
+import Terms from './pages/Terms';
+import Cookies from './pages/Cookies';
 import ScrollToTop from './components/ScrollToTop';
 
 const App: React.FC = () => {
@@ -29,6 +32,9 @@ const App: React.FC = () => {
           <Route path="/investor" element={<Investor />} />
           <Route path="/chus" element={<ChusMobility />} />
           <Route path="/kiss" element={<TurtleKiss />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/terms" element={<Terms />} />
+          <Route path="/cookies" element={<Cookies />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </Layout>

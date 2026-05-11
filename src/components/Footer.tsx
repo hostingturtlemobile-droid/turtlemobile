@@ -12,6 +12,12 @@ const Footer: React.FC = () => {
     { name: 'Contact', path: '/contact' },
   ];
 
+  const legalLinks = [
+    { name: 'Privacy Policy', path: '/privacy' },
+    { name: 'Terms of Service', path: '/terms' },
+    { name: 'Cookie Policy', path: '/cookies' },
+  ];
+
   return (
     <footer className="bg-turtle-dark text-turtle-light py-16 px-6 md:px-12">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:flex lg:justify-between items-end w-full max-w-screen-2xl mx-auto gap-8">
@@ -21,6 +27,17 @@ const Footer: React.FC = () => {
           </Link>
           <div className="font-body text-[10px] tracking-widest uppercase opacity-40">
             © {new Date().getFullYear()} Turtle Mobility. All rights reserved.
+          </div>
+          <div className="flex gap-4 mt-2 flex-wrap">
+            {legalLinks.map((link) => (
+              <Link 
+                key={link.name} 
+                to={link.path} 
+                className="font-body text-[10px] tracking-widest uppercase opacity-40 hover:opacity-100 hover:text-turtle-teal transition-all whitespace-nowrap"
+              >
+                {link.name}
+              </Link>
+            ))}
           </div>
         </div>
         <div className="flex flex-col items-start md:items-end gap-12">
