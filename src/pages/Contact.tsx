@@ -49,17 +49,6 @@ const Contact: React.FC = () => {
             <p className="text-xl font-body text-turtle-dark/70 max-w-md leading-relaxed mb-12">
               Have questions about our technology or want to schedule a trial? Our team is here to assist you.
             </p>
-            
-            <div className="space-y-8">
-              <div>
-                <h4 className="text-xs uppercase tracking-widest font-bold text-turtle-teal mb-2">Email Us</h4>
-                <p className="text-2xl font-display font-medium">hello@turtlemobility.com</p>
-              </div>
-              <div>
-                <h4 className="text-xs uppercase tracking-widest font-bold text-turtle-teal mb-2">Visit Us</h4>
-                <p className="text-2xl font-display font-medium">Gothenburg, Sweden</p>
-              </div>
-            </div>
           </div>
 
           {/* Right Column: Form */}

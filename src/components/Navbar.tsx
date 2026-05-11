@@ -75,8 +75,9 @@ const Navbar: React.FC = () => {
 
 
   return (
-    <nav className={`fixed top-0 w-full transition-all duration-300 ease-in-out ${
-      isMenuOpen 
+    <>
+      <nav className={`fixed top-0 w-full transition-all duration-300 ease-in-out ${
+        isMenuOpen 
         ? 'z-[9999] bg-[#e3f2c7] py-6' 
         : scrolled 
           ? 'z-50 bg-turtle-light/80 backdrop-blur-md py-3 shadow-sm border-b border-turtle-teal/10' 
@@ -170,6 +171,7 @@ const Navbar: React.FC = () => {
           </div>
         </button>
       </div>
+    </nav>
 
       {/* Contact Modal */}
       {isContactModalOpen && (
@@ -231,7 +233,7 @@ const Navbar: React.FC = () => {
           </div>
         </div>
       )}
-    </nav>
+    </>
   );
 };
 
