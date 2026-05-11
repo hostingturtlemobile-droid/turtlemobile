@@ -124,12 +124,16 @@ const Navbar: React.FC = () => {
         <div className="hidden lg:flex gap-8 items-center flex-grow px-12 justify-end mr-8">
           {navLinks.map((link) => {
             const isActive = location.pathname === link.path;
+            const useLightText = location.pathname === '/kiss' && !scrolled && !isMenuOpen;
+            
             return (
               <Link
                 key={link.name}
                 to={link.path}
                 className={`relative font-body font-medium tracking-wide text-[11px] transition-all duration-300 hover:text-turtle-teal hover:-translate-y-0.5 group pb-1 ${
-                  isActive ? 'text-turtle-dark' : 'text-turtle-dark/80'
+                  useLightText 
+                    ? (isActive ? 'text-white' : 'text-white/80') 
+                    : (isActive ? 'text-turtle-dark' : 'text-turtle-dark/80')
                 } ${link.name === 'KiSS' ? 'normal-case' : 'uppercase'}`}
               >
                 {link.name}
@@ -155,7 +159,7 @@ const Navbar: React.FC = () => {
 
         {/* Mobile Hamburger Toggle */}
         <button 
-          className="lg:hidden p-2 text-turtle-dark focus:outline-none"
+          className={`lg:hidden p-2 focus:outline-none ${location.pathname === '/kiss' && !scrolled && !isMenuOpen ? 'text-white' : 'text-turtle-dark'}`}
           style={{ zIndex: 10000 }}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >

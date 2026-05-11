@@ -1,70 +1,51 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Investor: React.FC = () => {
   return (
-    <div className="bg-turtle-light min-h-screen pt-32 pb-20 md:pb-32 px-6 md:px-12">
-      <div className="max-w-screen-xl mx-auto">
+    <div className="bg-turtle-light min-h-[100dvh] pt-24 pb-12 px-6 md:px-12 flex items-center">
+      <div className="max-w-screen-xl mx-auto w-full">
         {/* Investor Hero */}
-        <div className="mb-24">
-          <h1 className="text-4xl md:text-7xl font-headline font-extrabold text-turtle-dark mb-8 leading-tight">
-            The Capital <br/> of <span className="text-turtle-teal">Change.</span>
+        <div className="mb-16 grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-headline font-extrabold text-turtle-dark leading-tight">
+            The Turtle <br /> Capital
           </h1>
-          <p className="text-xl md:text-2xl font-body text-turtle-teal max-w-2xl leading-relaxed">
-            Investing in the transition from asset ownership to mobility-as-a-service. Secure, scalable, and sustainable.
-          </p>
-        </div>
-
-        {/* Stats Row */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-32">
-          {[
-            { label: 'Market Cap Potential', value: '$4.2T', desc: 'Urban MaaS market forecast by 2030.' },
-            { label: 'Series B Round', value: '$120M', desc: 'Closed July 2024 with Tier 1 VCs.' },
-            { label: 'Pilot Retention', value: '96%', desc: 'Industry-leading certification stickiness.' }
-          ].map(stat => (
-            <div key={stat.label} className="bg-white/40 p-12 rounded-3xl border border-turtle-teal/5">
-              <div className="text-4xl md:text-5xl font-black mb-4 text-turtle-dark">{stat.value}</div>
-              <div className="text-[10px] uppercase tracking-widest font-bold text-turtle-teal mb-4">{stat.label}</div>
-              <p className="text-xs text-turtle-dark/50 leading-relaxed">{stat.desc}</p>
-            </div>
-          ))}
-        </div>
-
-        {/* Vision Section */}
-        <div className="bg-turtle-dark text-turtle-light p-12 md:p-24 rounded-[3rem] mb-32 grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
-          <div>
-            <h2 className="text-3xl font-display font-bold mb-8">Quarterly Perspective</h2>
-            <p className="opacity-70 leading-relaxed mb-8">
-              "We aren't just selling rides. We are selling the recapture of urban time. Our financial model relies on the extreme efficiency of high-utilization remote-drive fleets, eliminating the idle time of traditional vehicle ownership."
+          <div className="font-body space-y-6 pt-2 md:pt-0">
+            <p className="text-lg md:text-xl text-turtle-dark leading-relaxed font-medium">
+              We are currently engaging with long-term, value-driven investors who share our belief that urban mobility needs a <span className="text-turtle-teal font-bold">fundamental structural reset</span>. 
             </p>
-            <p className="text-turtle-teal font-bold text-sm">- Marcus V., Chief Investment Officer</p>
-          </div>
-          <div className="space-y-6">
-            <div className="bg-white/5 p-6 rounded-2xl flex justify-between items-center border border-white/10 hover:bg-white/10 transition-all cursor-pointer">
-              <span className="text-sm font-medium">Q3 Shareholders Report</span>
-              <span className="text-[10px] uppercase tracking-widest opacity-40">PDF / 4.2 MB</span>
-            </div>
-            <div className="bg-white/5 p-6 rounded-2xl flex justify-between items-center border border-white/10 hover:bg-white/10 transition-all cursor-pointer">
-              <span className="text-sm font-medium">Mobility Market Analysis 2024</span>
-              <span className="text-[10px] uppercase tracking-widest opacity-40">PDF / 8.1 MB</span>
-            </div>
-            <div className="bg-white/5 p-6 rounded-2xl flex justify-between items-center border border-white/10 hover:bg-white/10 transition-all cursor-pointer">
-              <span className="text-sm font-medium">Sustainability ESG Metrics</span>
-              <span className="text-[10px] uppercase tracking-widest opacity-40">CSV / 1.2 MB</span>
+            <p className="text-base text-turtle-dark/70 leading-relaxed">
+              If you are interested in early-stage innovation and want to be among the first to back <span className="text-turtle-dark font-semibold">practical autonomy</span> combined with genuinely <span className="text-turtle-dark font-semibold">sustainable urban mobility</span>, we would be happy to connect.
+            </p>
+            
+            <div className="bg-white/40 border border-turtle-teal/10 rounded-2xl p-5 md:p-6 flex flex-col sm:flex-row gap-4 items-start sm:items-center justify-between shadow-sm">
+              <div>
+                <p className="text-xs font-bold uppercase tracking-widest text-turtle-dark/50 mb-1">Direct Contact</p>
+                <a href="mailto:investors@turtlemobility.com" className="text-base md:text-lg font-bold text-turtle-dark hover:text-turtle-teal transition-colors flex items-center gap-2">
+                  investors@turtlemobility.com
+                  <svg className="w-5 h-5 opacity-50" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+                </a>
+              </div>
+              <div className="sm:text-right border-t sm:border-t-0 sm:border-l border-turtle-dark/10 pt-4 sm:pt-0 sm:pl-6">
+                <p className="text-xs md:text-sm text-turtle-dark/60 max-w-[200px]">
+                  Pitch deck and additional materials available upon request.
+                </p>
+              </div>
             </div>
           </div>
         </div>
 
-        {/* Board Section */}
-        <div className="text-center">
-          <h2 className="text-3xl font-display font-bold mb-12">Governing the Future</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-12">
-            {['Nexus Ventures', 'Green Horizon Fund', 'Nordic Equity', 'Global Transit Partners'].map(fund => (
-              <div key={fund} className="opacity-30 grayscale hover:opacity-100 hover:grayscale-0 transition-all cursor-pointer">
-                <div className="h-1 bg-turtle-dark mb-4 w-12 mx-auto" />
-                <span className="text-[10px] font-bold uppercase tracking-widest">{fund}</span>
-              </div>
-            ))}
-          </div>
+
+
+        {/* CTA Section */}
+        <div className="bg-turtle-teal text-turtle-light p-8 md:p-12 rounded-[2.5rem] text-center">
+          <h2 className="text-2xl md:text-4xl font-display font-bold mb-4">Ready to shape the future of urban mobility?</h2>
+          <p className="text-base md:text-lg font-body max-w-2xl mx-auto mb-8 opacity-90">
+            Get in touch with our investor relations team to learn more about our vision and current opportunities.
+          </p>
+          <Link to="/contact" className="inline-block bg-turtle-dark text-turtle-light px-6 py-3 rounded-xl font-body font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-turtle-dark transition-all shadow-lg hover:shadow-xl">
+            Contact Us
+          </Link>
         </div>
       </div>
     </div>

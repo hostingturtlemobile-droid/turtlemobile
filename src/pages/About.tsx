@@ -55,15 +55,7 @@ const About: React.FC = () => {
           </div>
         </div>
 
-        {/* Global Footprint */}
-        <div className="text-center">
-          <h2 className="text-3xl font-display font-bold mb-12">Expanding the Network</h2>
-          <div className="flex flex-wrap justify-center gap-12 opacity-40 grayscale">
-            {['Gothenburg', 'Berlin', 'Tokyo', 'San Francisco', 'London'].map(city => (
-              <span key={city} className="text-2xl font-headline font-black uppercase tracking-tighter">{city}</span>
-            ))}
-          </div>
-        </div>
+
       </div>
     </div>
   );
