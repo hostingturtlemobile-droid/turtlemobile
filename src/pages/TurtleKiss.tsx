@@ -7,8 +7,8 @@ const TurtleKiss: React.FC = () => {
       {/* New Primary Hero */}
       <div className="relative min-h-[100dvh] pt-32 pb-16 px-6 md:px-12 flex flex-col justify-between items-center text-center overflow-hidden">
         {/* Background Image Layer */}
-        <div className="absolute inset-0 z-0">
-          <img src={kissHeroImg} alt="KiSS Microcar" className="w-full h-full object-cover object-center" />
+        <div className="absolute inset-0 z-0 overflow-hidden">
+          <img src={kissHeroImg} alt="KiSS Microcar" className="w-full h-full object-cover object-center animate-ken-burns" />
           {/* Gradient overlay to ensure white text remains readable against the image */}
           <div className="absolute inset-0 bg-turtle-dark/30 bg-gradient-to-b from-turtle-dark/50 via-transparent to-turtle-dark/60"></div>
         </div>
@@ -75,7 +75,7 @@ const TurtleKiss: React.FC = () => {
         <div className="max-w-4xl mb-32">
           <h2 className="text-3xl font-display font-bold mb-8">Design Language 1.0</h2>
           <p className="text-lg text-turtle-dark/80 leading-relaxed mb-8">
-            Our design language is inspired by the turtle and long living creature, nature's most efficient protector. It's about a hard, resilient shell protecting a soft, intuitive interior. 
+            Our design language is inspired by turtle, one of the long living creatures, nature's most efficient protector. It's about a hard, resilient shell protecting a soft, intuitive interior. 
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="border-l-4 border-turtle-teal pl-8 py-4">
@@ -113,20 +113,20 @@ const TurtleKiss: React.FC = () => {
                 ]
               },
               {
-                title: "Battery & Charging",
+                title: "Battery, Charging & Range",
                 icon: <svg className="w-8 h-8 mb-6 text-turtle-teal opacity-80" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" /></svg>,
                 items: [
                   { label: "Capacity", value: "4.5 kWh" },
                   { label: "Protection", value: "IP67" },
                   { label: "Charge (20-80%)", value: "~75 mins" },
+                  { label: "Urban Range", value: "upto 140 km" },
                   { value: "Battery swapping compatible" }
                 ]
               },
               {
-                title: "Range & Chassis",
+                title: "Chassis",
                 icon: <svg className="w-8 h-8 mb-6 text-turtle-teal opacity-80" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" /></svg>,
                 items: [
-                  { label: "Urban Range", value: "Up to 140 km" },
                   { label: "Frame", value: "Lightweight aluminium" },
                   { label: "Suspension", value: "Independent all-wheel" }
                 ]
@@ -136,7 +136,7 @@ const TurtleKiss: React.FC = () => {
                 icon: <svg className="w-8 h-8 mb-6 text-turtle-teal opacity-80" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" /></svg>,
                 items: [
                   { label: "Primary", value: "Joystick-based" },
-                  { value: "Steer-by-Wire" },
+                  { value: "Steer-by-Wire with electric power assist" },
                   { value: "Brake-by-Wire with ABS" },
                   { value: "No pedals or steering wheel" }
                 ]

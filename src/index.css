@@ -6,6 +6,10 @@
   body {
     @apply bg-surface text-on-surface font-body selection:bg-primary-fixed selection:text-on-primary-fixed;
   }
+  p {
+    text-align: justify;
+    text-justify: inter-word;
+  }
 }
 
 @layer components {
@@ -72,10 +76,28 @@
     animation: fadeInUp 1.4s cubic-bezier(0.2, 1, 0.3, 1) forwards;
   }
 
+  @keyframes slideInRight {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+  }
+
+  .animate-slide-in-right {
+    opacity: 0;
+    animation: slideInRight 1.5s cubic-bezier(0.2, 1, 0.3, 1) forwards;
+  }
+
   .delay-200 { animation-delay: 0.2s; }
   .delay-400 { animation-delay: 0.4s; }
   .delay-600 { animation-delay: 0.6s; }
   .delay-800 { animation-delay: 0.8s; }
+  .delay-1000 { animation-delay: 1s; }
+  .delay-1200 { animation-delay: 1.2s; }
+  .delay-1400 { animation-delay: 1.4s; }
+  .delay-1600 { animation-delay: 1.6s; }
+  .delay-1800 { animation-delay: 1.8s; }
+  .delay-2000 { animation-delay: 2s; }
+  .delay-2200 { animation-delay: 2.2s; }
+
   @keyframes growVertical {
     from { transform: scaleY(0); opacity: 0; }
     to { transform: scaleY(1); opacity: 1; }
@@ -85,4 +107,14 @@
     transform-origin: bottom;
     animation: growVertical 1.2s cubic-bezier(0.2, 1, 0.3, 1) forwards;
   }
+
+  @keyframes kenBurns {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.08); }
+  }
+
+  .animate-ken-burns {
+    animation: kenBurns 20s ease-in-out infinite alternate;
+  }
 }
+

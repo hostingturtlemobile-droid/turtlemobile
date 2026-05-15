@@ -117,8 +117,15 @@ const Navbar: React.FC = () => {
       </div>
 
       <div className="flex justify-between items-center w-full px-6 md:px-12 max-w-screen-2xl mx-auto">
-        <Link to="/" className="flex items-center" style={{ zIndex: 10000 }} onClick={() => setIsMenuOpen(false)}>
-          <img src={logo} alt="Turtle Mobility" className="h-18 md:h-30 w-auto" />
+        <Link to="/" className="flex flex-col items-start gap-1" style={{ zIndex: 10000 }} onClick={() => setIsMenuOpen(false)}>
+          <img src={logo} alt="Turtle Mobility" className="h-14 md:h-20 w-auto" />
+          <span className={`text-[10px] md:text-xs font-display font-black uppercase tracking-[0.25em] whitespace-nowrap transition-colors duration-300 ${
+            (location.pathname === '/kiss' && !scrolled && !isMenuOpen) 
+              ? 'text-white' 
+              : 'text-turtle-dark/90'
+          }`}>
+            Turtle Mobility
+          </span>
         </Link>
         
         {/* Desktop Navigation Links */}

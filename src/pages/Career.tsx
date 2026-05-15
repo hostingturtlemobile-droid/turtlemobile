@@ -97,7 +97,7 @@ const Career: React.FC = () => {
               {[
                 { 
                   title: 'Remote work flexibility', 
-                  desc: 'Design Work from anywhere in the world, as long as you’re aligned with our mission and can sync with our heart. We value trust, ownership, and outcomes over fixed desks, locations, or time zones. Having said so, we expect you to come to office once the KiSS hits the production as the urban mobility is no more a challenge!' 
+                  desc: 'Work from anywhere, as long as you’re aligned with our mission and can sync with our heart. We value trust, ownership, and outcomes over fixed desks, locations, or time zones. Having said so, we expect you to come to office once the KiSS hits the production as the urban mobility is no more a challenge!' 
                 },
                 { 
                   title: 'Non-Traditional Work Environment', 

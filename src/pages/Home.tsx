@@ -19,27 +19,26 @@ const Home: React.FC = () => {
       <section className="relative min-h-screen px-6 flex flex-col justify-between pt-32 pb-16 max-w-screen-xl mx-auto">
         {/* Top Header Text */}
         <div className="text-center z-10 flex flex-col items-center">
-          <h1 className="text-4xl md:text-6xl font-headline font-extrabold leading-[1.1] tracking-[-0.03em] max-w-[1000px] animate-fade-in-up delay-1000 bg-clip-text text-transparent bg-gradient-to-b from-turtle-dark to-turtle-teal/80">
+          <h1 className="text-4xl md:text-6xl font-headline font-extrabold leading-[1.1] tracking-[-0.03em] max-w-[1000px] animate-fade-in-up delay-200 bg-clip-text text-transparent bg-gradient-to-b from-turtle-dark to-turtle-teal/80">
             World’s first <br /> one-hand-drive <br /> micro car!
           </h1>
         </div>
 
-        {/* Hero Image - Centered and Cinematic with descriptive texts */}
-        <div className="relative flex-grow flex flex-col items-center justify-center w-full gap-4 md:gap-6 py-4">
-          <p className="text-lg md:text-2xl font-display font-bold text-turtle-dark animate-fade-in-up delay-[1600ms] text-center max-w-2xl">
+        <div className="relative flex-grow flex flex-col items-center justify-center w-full gap-2 md:gap-4 py-4">
+          <p className="text-2xl md:text-4xl font-display font-medium italic text-turtle-teal animate-slide-in-right delay-1000 text-center">
             Zip through the traffic like never before!
           </p>
           
-          <div className="relative flex items-center justify-center w-full">
+          <div className="relative flex items-center justify-center w-full overflow-hidden rounded-[2rem]">
             <img 
               src={heroImage} 
               alt="Turtle Mobility Car" 
-              className="w-full max-w-4xl h-auto max-h-[48vh] object-contain animate-slide-in delay-[1400ms] z-10 drop-shadow-2xl hover:scale-105 transition-transform duration-700" 
+              className="w-full max-w-4xl h-auto max-h-[48vh] object-contain animate-slide-in delay-600 z-10 drop-shadow-2xl hover:scale-105 transition-transform duration-700 animate-ken-burns" 
             />
           </div>
 
-          <p className="text-base md:text-xl font-body font-semibold text-turtle-teal animate-fade-in-up delay-[1800ms] text-center">
-            Remotely driven autonomous micro car
+          <p className="text-xl md:text-3xl font-display font-black text-turtle-dark uppercase tracking-[0.1em] animate-fade-in-up delay-1400 text-center max-w-4xl">
+            2 seater remotely driven autonomous micro car
           </p>
         </div>
       </section>
@@ -90,13 +89,13 @@ const Home: React.FC = () => {
             </p>
           </div>
 
-          <div className="w-full relative group max-w-5xl mx-auto">
+          <div className="w-full relative group max-w-5xl mx-auto overflow-hidden rounded-3xl">
             <img 
               src={cloudTM} 
               alt="ClouDrive Remote Driver Rig" 
-              className="w-full h-auto max-h-[45vh] object-cover drop-shadow-2xl rounded-3xl mx-auto"
+              className="w-full h-auto max-h-[45vh] object-cover drop-shadow-2xl rounded-3xl mx-auto animate-ken-burns"
             />
-            <div className="absolute inset-0 rounded-3xl ring-1 ring-inset ring-black/5" />
+            <div className="absolute inset-0 rounded-3xl ring-1 ring-inset ring-black/5 pointer-events-none" />
           </div>
         </div>
       </section>
@@ -125,7 +124,7 @@ const Home: React.FC = () => {
               <div className="relative p-6 w-full">
                 <div className="backdrop-blur-md bg-white/10 p-5 rounded-2xl md:rounded-3xl border border-white/20">
                   <p className="text-sm md:text-lg font-body text-white leading-relaxed">
-                    Worried about picking your kids when you are outstation? Our remote drivers would pick for them and drop safely!
+                    Worried about picking up your kids when you are out of town? Our remote drivers will pick them up and drop them safely!
                   </p>
                 </div>
               </div>
@@ -151,7 +150,7 @@ const Home: React.FC = () => {
               <div className="relative p-6 md:p-8 w-full">
                 <div className="backdrop-blur-md bg-white/10 p-5 rounded-2xl md:rounded-3xl border border-white/20">
                   <p className="text-sm md:text-lg font-body text-white leading-relaxed">
-                    Not finding a cab? Take your car to the airport. Our remote drivers drive your car safe home and park for you!
+                    Not finding a cab? Take your car to the airport. Our remote drivers drive your car safely home and park it for you!
                   </p>
                 </div>
               </div>
@@ -207,8 +206,8 @@ const Home: React.FC = () => {
       {/* KiSS Features Section */}
       <section className="relative min-h-[80vh] flex flex-col items-center justify-center px-6 py-32 text-turtle-light overflow-hidden">
         {/* Background Image */}
-        <div className="absolute inset-0 z-0">
-          <img src={kissFeaturesBg} alt="Turtle Mobility KiSS urban environment" className="w-full h-full object-cover object-center" />
+        <div className="absolute inset-0 z-0 overflow-hidden">
+          <img src={kissFeaturesBg} alt="Turtle Mobility KiSS urban environment" className="w-full h-full object-cover object-center animate-ken-burns" />
         </div>
 
         {/* Content */}

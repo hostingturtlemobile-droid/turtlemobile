@@ -23,7 +23,7 @@ const Technology: React.FC = () => {
           <div>
             <h2 className="text-3xl font-display font-bold mb-6">Autonomy with Real Human Control</h2>
             <p className="text-turtle-dark/80 leading-relaxed mb-6 font-body text-lg">
-              ClouDrive™ allows vehicles to be operated remotely with a human driver in full control using real-time video, audio, and sensor feedback. Tele-driving is not just a backup feature; it is a <span className="font-bold text-turtle-teal">core capability</span> that delivers the benefits of autonomous driving while keeping human judgment in the loop—crucial for complex urban environments.
+              ClouDrive™ allows vehicles to be operated remotely with a human driver in full control using real-time video, audio, and sensor feedback. Tele-driving is not just a backup feature; it is a <span className="font-bold text-turtle-teal">core capability</span> that delivers the benefits of autonomous driving while keeping human judgment in the loop - crucial for complex urban environments.
             </p>
             <h3 className="text-2xl font-display font-bold mb-4 mt-8">Ultra-Low Latency</h3>
             <p className="text-turtle-dark/80 leading-relaxed font-body text-lg">
@@ -37,7 +37,7 @@ const Technology: React.FC = () => {
           <div className="bg-turtle-teal/5 p-8 md:p-12 rounded-[2.5rem] border border-turtle-teal/10">
             <h3 className="text-2xl font-display font-bold mb-8">Minimalist Architecture</h3>
             <ul className="space-y-6 text-turtle-dark/80 font-body">
-              <li className="flex gap-4"><span className="text-turtle-teal font-bold">01</span> <div><span className="font-bold">Purpose-driven stack</span> with 4 cameras, GPS, tactile, and audio sensors—reducing complexity and improving reliability.</div></li>
+              <li className="flex gap-4"><span className="text-turtle-teal font-bold">01</span> <div><span className="font-bold">Purpose-driven stack</span> with 4 cameras, GPS, tactile, and audio sensors - reducing complexity and improving reliability.</div></li>
               <li className="flex gap-4"><span className="text-turtle-teal font-bold">02</span> <div><span className="font-bold">Radar Safety Redundancy</span> provides independent safety, enabling autonomous emergency braking (MRM).</div></li>
               <li className="flex gap-4"><span className="text-turtle-teal font-bold">03</span> <div><span className="font-bold">Software-defined</span> steer/brake-by-wire platform supported by Advanced Driver Assistance Systems (ADAS).</div></li>
               <li className="flex gap-4"><span className="text-turtle-teal font-bold">04</span> <div><span className="font-bold">Cabin transparency</span> shows occupants when a remote driver is actively in control, building trust.</div></li>
@@ -129,7 +129,7 @@ const Technology: React.FC = () => {
             </div>
 
             {/* Right Card (Overlapping) */}
-            <div className="md:absolute bottom-[-3rem] -right-4 lg:-right-20 bg-turtle-dark text-turtle-light p-8 rounded-2xl md:w-80 shadow-2xl z-10 text-left">
+            <div className="md:absolute top-10 md:-right-16 lg:-right-32 xl:-right-40 bg-turtle-dark text-turtle-light p-8 rounded-2xl md:w-80 shadow-2xl z-10 text-left">
               <svg className="w-6 h-6 mb-4 text-turtle-teal" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
               </svg>
