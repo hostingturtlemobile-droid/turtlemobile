@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { WEB3FORMS_ACCESS_KEY } from '../config';
 
 const Contact: React.FC = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -10,7 +11,7 @@ const Contact: React.FC = () => {
     
     const formData = new FormData(e.currentTarget);
     // Web3Forms Access Key
-    formData.append("access_key", "0702e477-3bf6-4391-808b-c8555ed4b201");
+    formData.append("access_key", WEB3FORMS_ACCESS_KEY);
     formData.append("subject", "New Contact Form Submission");
 
     try {
@@ -46,9 +47,39 @@ const Contact: React.FC = () => {
             <h1 className="text-4xl md:text-8xl font-headline font-extrabold text-turtle-dark leading-[1.1] mb-8">
               Let's <br /> <span className="text-turtle-teal">Connect.</span>
             </h1>
-            <p className="text-xl font-body text-turtle-dark/70 max-w-md leading-relaxed mb-12">
+            <p className="text-xl font-body text-turtle-dark/70 max-w-md leading-relaxed mb-8">
               Have questions about our technology or want to schedule a trial? Our team is here to assist you.
             </p>
+            
+            <div className="space-y-8 border-t border-turtle-dark/10 pt-8 max-w-md">
+              <div className="space-y-2">
+                <span className="text-[10px] uppercase tracking-widest font-bold opacity-50 block">HQ Address</span>
+                <p className="text-lg font-body text-turtle-dark/80 font-medium">
+                  Ottobrunner Straße 16,<br />
+                  81737 Munich, Germany
+                </p>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-6 gap-x-4 pt-2">
+                <div className="space-y-2">
+                  <span className="text-[10px] uppercase tracking-widest font-bold opacity-50 block">General Contact</span>
+                  <a href="mailto:hello@turtlemobility.com" className="text-base font-body text-turtle-teal hover:text-turtle-dark font-bold block transition-colors">
+                    hello@turtlemobility.com
+                  </a>
+                </div>
+                <div className="space-y-2">
+                  <span className="text-[10px] uppercase tracking-widest font-bold opacity-50 block">Careers</span>
+                  <a href="mailto:career@turtlemobility.com" className="text-base font-body text-turtle-teal hover:text-turtle-dark font-bold block transition-colors">
+                    career@turtlemobility.com
+                  </a>
+                </div>
+                <div className="space-y-2 sm:col-span-2">
+                  <span className="text-[10px] uppercase tracking-widest font-bold opacity-50 block">Investors</span>
+                  <a href="mailto:investors@turtlemobility.com" className="text-base font-body text-turtle-teal hover:text-turtle-dark font-bold block transition-colors">
+                    investors@turtlemobility.com
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Right Column: Form */}

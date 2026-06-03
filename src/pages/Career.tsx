@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import jobsData from '../data/jobs.json';
+import { WEB3FORMS_ACCESS_KEY } from '../config';
 
 const Career: React.FC = () => {
   const [expandedJobId, setExpandedJobId] = useState<string | null>(null);
@@ -37,7 +38,7 @@ const Career: React.FC = () => {
     const formData = new FormData(e.currentTarget);
     
     // Web3Forms Access Key
-    formData.append("access_key", "0702e477-3bf6-4391-808b-c8555ed4b201");
+    formData.append("access_key", WEB3FORMS_ACCESS_KEY);
     
     const job = jobsData.find(j => j.id === applyingJobId);
     if (job) {
@@ -73,13 +74,25 @@ const Career: React.FC = () => {
     <div className="bg-turtle-light min-h-screen pt-32 pb-20 md:pb-32 px-6 md:px-12 relative">
       <div className="max-w-screen-xl mx-auto">
         {/* Career Hero */}
-        <div className="mb-24">
-          <h1 className="text-4xl md:text-7xl font-headline font-extrabold text-turtle-dark mb-8 leading-tight">
-            Build the <br/> Future of <span className="text-turtle-teal">Flow.</span>
-          </h1>
-          <p className="text-xl md:text-2xl font-body text-turtle-teal max-w-2xl leading-relaxed">
-            We're looking for the thinkers, tinkers, and dreamers who refuse to accept the urban status quo.
-          </p>
+        <div className="mb-24 flex flex-col md:flex-row justify-between items-start gap-8">
+          <div className="max-w-2xl">
+            <h1 className="text-4xl md:text-7xl font-headline font-extrabold text-turtle-dark mb-8 leading-tight">
+              Build the <br/> Future of <span className="text-turtle-teal">Flow.</span>
+            </h1>
+            <p className="text-xl md:text-2xl font-body text-turtle-teal leading-relaxed">
+              We're looking for the thinkers, tinkers, and dreamers who refuse to accept the urban status quo.
+            </p>
+          </div>
+          <div className="bg-white/40 border border-turtle-teal/10 backdrop-blur-md p-6 rounded-2xl md:max-w-sm mt-2">
+            <span className="text-[10px] uppercase tracking-widest font-bold opacity-50 block mb-1">Direct Inquiries</span>
+            <p className="text-sm font-body text-turtle-dark/70 mb-3">
+              Don't see an open role that matches your skills? Send an open application directly to our recruitment cell.
+            </p>
+            <a href="mailto:career@turtlemobility.com" className="text-sm font-bold text-turtle-teal hover:text-turtle-dark transition-colors flex items-center gap-1.5">
+              career@turtlemobility.com
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+            </a>
+          </div>
         </div>
 
         {/* Culture Section */}

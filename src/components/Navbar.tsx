@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import logo from '../assets/turtlemobilelogo.png';
+import { WEB3FORMS_ACCESS_KEY } from '../config';
 
 const Navbar: React.FC = () => {
   const location = useLocation();
@@ -15,7 +16,7 @@ const Navbar: React.FC = () => {
     setIsSubmitting(true);
     
     const formData = new FormData(e.currentTarget);
-    formData.append("access_key", "0702e477-3bf6-4391-808b-c8555ed4b201");
+    formData.append("access_key", WEB3FORMS_ACCESS_KEY);
     formData.append("subject", "New Contact Form Submission");
 
     try {
