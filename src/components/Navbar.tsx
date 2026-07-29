@@ -70,7 +70,7 @@ const Navbar: React.FC = () => {
     { name: 'Technology', path: '/tech' },
     { name: 'Career', path: '/career' },
     { name: 'Investor', path: '/investor' },
-    { name: 'ChusMobility', path: '/chus' },
+    { name: 'ChusMobility', href: 'https://chusmobility.com', external: true as const },
   ];
 
 
@@ -96,14 +96,27 @@ const Navbar: React.FC = () => {
       >
         <div className="flex flex-col items-center gap-6 overflow-y-auto max-h-[70vh] w-full pt-12 pb-8 no-scrollbar">
           {navLinks.map((link) => (
-            <Link
-              key={link.name}
-              to={link.path}
-              className="text-4xl font-headline font-black text-turtle-dark hover:text-turtle-teal transition-all active:scale-95"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              {link.name}
-            </Link>
+            'external' in link && link.external ? (
+              <a
+                key={link.name}
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-4xl font-headline font-black text-turtle-dark hover:text-turtle-teal transition-all active:scale-95"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                {link.name}
+              </a>
+            ) : (
+              <Link
+                key={link.name}
+                to={'path' in link ? link.path : '/'}
+                className="text-4xl font-headline font-black text-turtle-dark hover:text-turtle-teal transition-all active:scale-95"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                {link.name}
+              </Link>
+            )
           ))}
           <button
             onClick={() => {
@@ -132,18 +145,35 @@ const Navbar: React.FC = () => {
         {/* Desktop Navigation Links */}
         <div className="hidden lg:flex gap-8 items-center flex-grow px-12 justify-end mr-8">
           {navLinks.map((link) => {
-            const isActive = location.pathname === link.path;
+            const isExternal = 'external' in link && link.external;
+            const isActive = !isExternal && 'path' in link && location.pathname === link.path;
             const useLightText = location.pathname === '/kiss' && !scrolled && !isMenuOpen;
+            const className = `relative font-body font-medium tracking-wide text-[11px] transition-all duration-300 hover:text-turtle-teal hover:-translate-y-0.5 group pb-1 ${
+              useLightText 
+                ? (isActive ? 'text-white' : 'text-white/80') 
+                : (isActive ? 'text-turtle-dark' : 'text-turtle-dark/80')
+            } ${link.name === 'KiSS' ? 'normal-case' : 'uppercase'}`;
             
+            if (isExternal) {
+              return (
+                <a
+                  key={link.name}
+                  href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={className}
+                >
+                  {link.name}
+                  <span className="absolute bottom-0 left-0 h-[1.5px] bg-turtle-teal transition-all duration-300 w-0 group-hover:w-full" />
+                </a>
+              );
+            }
+
             return (
               <Link
                 key={link.name}
-                to={link.path}
-                className={`relative font-body font-medium tracking-wide text-[11px] transition-all duration-300 hover:text-turtle-teal hover:-translate-y-0.5 group pb-1 ${
-                  useLightText 
-                    ? (isActive ? 'text-white' : 'text-white/80') 
-                    : (isActive ? 'text-turtle-dark' : 'text-turtle-dark/80')
-                } ${link.name === 'KiSS' ? 'normal-case' : 'uppercase'}`}
+                to={'path' in link ? link.path : '/'}
+                className={className}
               >
                 {link.name}
                 <span 

@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
     { name: 'Technology', path: '/tech' },
     { name: 'Career', path: '/career' },
     { name: 'Investor', path: '/investor' },
-    { name: 'ChusMobility', path: '/chus' },
+    { name: 'ChusMobility', href: 'https://chusmobility.com', external: true as const },
     { name: 'KiSS', path: '/kiss' },
     { name: 'Contact', path: '/contact' },
   ];
@@ -49,12 +49,23 @@ const Footer: React.FC = () => {
           <div className="flex gap-x-4 gap-y-3 md:gap-4 flex-wrap md:justify-end w-full items-center">
             {footerLinks.map((link, index, array) => (
               <React.Fragment key={link.name}>
-                <Link
-                  to={link.path}
-                  className={`font-body text-[10px] tracking-widest opacity-60 hover:opacity-100 hover:text-turtle-teal transition-all whitespace-nowrap ${link.name === 'KiSS' ? 'normal-case' : 'uppercase'}`}
-                >
-                  {link.name}
-                </Link>
+                {'external' in link && link.external ? (
+                  <a
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-body text-[10px] tracking-widest opacity-60 hover:opacity-100 hover:text-turtle-teal transition-all whitespace-nowrap uppercase"
+                  >
+                    {link.name}
+                  </a>
+                ) : (
+                  <Link
+                    to={'path' in link ? link.path : '/'}
+                    className={`font-body text-[10px] tracking-widest opacity-60 hover:opacity-100 hover:text-turtle-teal transition-all whitespace-nowrap ${link.name === 'KiSS' ? 'normal-case' : 'uppercase'}`}
+                  >
+                    {link.name}
+                  </Link>
+                )}
                 {index < array.length - 1 && (
                   <span className="w-[1px] h-3 bg-turtle-light/20 hidden sm:block" />
                 )}
